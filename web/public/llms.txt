@@ -1,0 +1,32 @@
+# Brand Connector Pro (Magic Manta)
+
+Brand Connector Pro at https://magicmanta.com finds and verifies a company's social media profiles from its website URL.
+
+## How it works
+- Enter a brand's domain on the homepage to retrieve associated social handles across X, Instagram, LinkedIn, and other platforms.
+- Profiles declared through JSON-LD/Schema.org sameAs or official-site DOM links get a Verified badge with the evidence source shown.
+- Search fallback candidates stay Unverified; the app checks whether they link back to the official domain.
+- Conflicts between official sources are flagged; each result shows "last checked".
+- One-click copying for individual handles or the whole set.
+
+## Pages
+- / — single domain lookup
+- /batch — look up multiple domains
+- /dossier — result dossier view
+- /source — source board
+- /adapters — platform adapters
+- /licenses — open source credits and digital carbon disclosure
+- /offline — offline fallback
+
+## Machine-readable
+- /llms.txt — this file
+- /.well-known/agent.json — agent card (no machine API; the lookup UI is the interface)
+- /carbon.txt — digital carbon disclosure (carbon.txt v0.5)
+- /sitemap.xml and /robots.txt
+
+## Limits
+No public REST API and no MCP server. No documented rate limits; automated lookups should be polite (sequential requests, cache where possible). No sign-in required. No personal data is stored.
+
+## Contact
+Built by MikeDemo — https://mikedemo.com
+

@@ -1,0 +1,21 @@
+version = "0.5"
+
+last_updated = 2026-09-30
+
+[org]
+
+disclosures = [
+
+ { doc_type = "web-page", url = "https://magicmanta.com/licenses", domain = "magicmanta.com", title = "Carbon disclosure for Brand Connector Pro" },
+
+]
+
+[upstream]
+
+services = [
+
+ { domain = "www.lovable.dev", service_type = "shared-hosting" },
+
+ { domain = "www.cloudflare.com", service_type = "content-delivery-network" },
+
+]

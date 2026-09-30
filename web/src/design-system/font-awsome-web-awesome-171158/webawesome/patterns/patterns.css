@@ -1,0 +1,179 @@
+/*
+ * Standard pattern styles — Web Awesome Design System.
+ *
+ * Imported as a side effect by the pattern components, so a consumer that
+ * renders <SiteFooter /> or <LicensesPage /> gets these rules automatically.
+ * Every value is a --wa-* token; no raw literals.
+ */
+
+/* ---------- Standard footer ---------- */
+
+.wa-site-footer {
+  inline-size: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--wa-space-2xs);
+  padding: var(--wa-space-xl) var(--wa-space-m);
+  font-size: var(--wa-font-size-s);
+  color: var(--wa-color-text-quiet);
+  border-top: var(--wa-border-width-s) solid var(--wa-color-surface-border);
+}
+
+.wa-site-footer nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: var(--wa-space-s);
+}
+
+.wa-site-footer a {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--wa-space-2xs);
+  padding: var(--wa-space-3xs) var(--wa-space-2xs);
+  border-radius: var(--wa-border-radius-s);
+  font-weight: var(--wa-font-weight-semibold);
+  color: var(--wa-color-text-quiet);
+  text-decoration: none;
+  transition: color var(--wa-transition-fast) var(--wa-transition-easing);
+}
+
+.wa-site-footer a:hover {
+  color: var(--wa-color-text-normal);
+}
+
+.wa-site-footer a:focus-visible {
+  outline: var(--wa-focus-ring);
+  outline-offset: var(--wa-focus-ring-offset);
+}
+
+.wa-site-footer-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: var(--wa-space-s);
+}
+
+/* ---------- Licenses page ---------- */
+
+.wa-licenses {
+  inline-size: 100%;
+  max-inline-size: 48rem;
+  margin-inline: auto;
+  padding: var(--wa-space-xl) var(--wa-space-m) var(--wa-space-3xl);
+}
+
+.wa-licenses-back {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--wa-space-2xs);
+  color: var(--wa-color-brand-on-quiet);
+  font-weight: var(--wa-font-weight-semibold);
+  text-decoration: none;
+}
+
+.wa-licenses-back:hover {
+  text-decoration: underline;
+}
+
+.wa-licenses-lede {
+  color: var(--wa-color-text-quiet);
+  max-inline-size: 60ch;
+}
+
+.wa-licenses-group {
+  margin-block-start: var(--wa-space-xl);
+}
+
+.wa-licenses-list {
+  list-style: none;
+  margin: var(--wa-space-m) 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--wa-space-s);
+}
+
+.wa-licenses-entry {
+  padding: var(--wa-space-m);
+  border: var(--wa-border-width-s) solid var(--wa-color-surface-border);
+  border-radius: var(--wa-border-radius-m);
+  background: var(--wa-color-surface-raised);
+}
+
+.wa-licenses-entry-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--wa-space-2xs);
+}
+
+.wa-licenses-entry h3 {
+  margin: 0;
+  font-size: var(--wa-font-size-m);
+}
+
+.wa-licenses-entry-license,
+.wa-licenses-entry-author,
+.wa-licenses-entry-note {
+  color: var(--wa-color-text-quiet);
+  font-size: var(--wa-font-size-s);
+}
+
+.wa-licenses-entry-author {
+  margin: var(--wa-space-3xs) 0 0;
+}
+
+.wa-licenses-entry-note {
+  margin: var(--wa-space-2xs) 0 0;
+  line-height: var(--wa-line-height-expanded);
+}
+
+.wa-licenses-entry-link {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--wa-space-2xs);
+  margin-block-start: var(--wa-space-2xs);
+  font-size: var(--wa-font-size-s);
+  font-weight: var(--wa-font-weight-semibold);
+  color: var(--wa-color-brand-on-quiet);
+  text-decoration: none;
+}
+
+.wa-licenses-entry-link:hover {
+  text-decoration: underline;
+}
+
+/* ---------- hCaptcha ---------- */
+
+.wa-hcaptcha {
+  display: flex;
+  flex-direction: column;
+  gap: var(--wa-space-2xs);
+}
+
+/* Reserve room for the visible widget so loading causes no layout shift. */
+.wa-hcaptcha[data-size="normal"] .wa-hcaptcha-widget,
+.wa-hcaptcha[data-size="compact"] .wa-hcaptcha-widget {
+  border-radius: var(--wa-border-radius-m);
+  min-block-size: var(--wa-space-3xl);
+}
+
+.wa-hcaptcha[data-status="loading"] .wa-hcaptcha-widget {
+  border: var(--wa-border-width-s) dashed var(--wa-color-surface-border);
+  background-color: var(--wa-color-surface-lowered);
+}
+
+.wa-hcaptcha[data-size="invisible"] .wa-hcaptcha-widget {
+  min-block-size: 0;
+}
+
+.wa-hcaptcha-message {
+  margin: 0;
+  font-size: var(--wa-font-size-s);
+  color: var(--wa-color-danger-on-quiet);
+}

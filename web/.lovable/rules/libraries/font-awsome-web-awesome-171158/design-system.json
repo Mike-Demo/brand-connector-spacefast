@@ -1,0 +1,5776 @@
+{
+  "meta": {
+    "name": "Font Awsome \u0026 Web Awesome",
+    "package": "@ws-q44iemhjvr3azhdcenod/9fea97bb-e317-446f-b683-1274350846c6",
+    "version": "1.13.0",
+    "framework": "react",
+    "css_framework": "css-variables",
+    "component_library": "webawesome",
+    "starter_template": "custom_design_system",
+    "theme_files": [
+      "src/webawesome/theme.css",
+      "src/webawesome/tokens.css"
+    ],
+    "source_type": "local",
+    "source_manifest": {
+      "#enrichment": "986720da83b9ac7af57a4b9a89b0b3efcf8726048a43e2c1f8cca0e1c22c00f8",
+      ".dsignore": "95d578405064fa482cd47c5d7addefb9",
+      ".gitignore": "6059213806e442947666752f3db6bfdc",
+      ".lovable/meta.yaml": "6040da3ba0ce8089d3a289225b27b718",
+      ".lovable/plan/add-hcaptcha-as-a-component-2026-09-04.md": "da4af5c5d67fac716faa58bb98b0c7db",
+      ".lovable/plan/add-tweet-app-link-to-the-standard-footer-2026-09-06.md": "fd419bdd60c712039a26d930c244df84",
+      ".lovable/plan/convert-to-a-local-cdn-backed-design-system-2026-09-04.md": "415a908b7120b053dd4766122607c608",
+      ".lovable/plan/fix-spacefast-build-remove-leftover-worker-config-2026-09-20.md": "186bc84b1787067480f4d7961fc1e9bb",
+      ".lovable/plan/github-sync-nothing-is-actually-stuck-2026-09-20.md": "c061bfef3b181d5b6b5e0805be1d98d1",
+      ".lovable/plan/include-web-awesome-s-fouce-utility-2026-09-11.md": "eb5245f166d55e3e50de81571a04595e",
+      ".lovable/plan/make-the-design-systems-sites-agent-friendly-l0-l1-l2-2026-09-26.md": "292a54e22c1638e1e244964047dde4a6",
+      ".lovable/plan/optional-ssr-and-cdn-support-for-the-web-awesome-design-syst-2026-09-04.md": "b5f2dd41638c022a8d790cb890cfde3a",
+      ".lovable/plan/repository-hand-off-documentation-2026-09-23.md": "b802e217618622d757139da9da5478a2",
+      ".lovable/plan/search-engine-readiness-favicon-robots-txt-delivery-best-pra-2026-09-11.md": "41e2f8ed1ba7a2eddc30d819e5edcc8c",
+      ".lovable/plan/spacefast-build-still-failing-it-built-an-old-commit-2026-09-20.md": "89bb1a01f1158cb79b3402aa14b155af",
+      ".lovable/plan/standard-footer-open-source-license-page-2026-09-04.md": "621e4842bc14ed09b0e98c66803d04ba",
+      ".lovable/plan/static-hosting-on-spacefast-2026-09-20.md": "d8e8fa653502c764da4fe3dbf14d3898",
+      ".lovable/plan/theme-editor-2026-09-04.md": "15a1059a291ad10c5871e58c6049a354",
+      ".lovable/sources.yaml": "e31fd2b129e0dbcfa0c11d6b2acefab4",
+      ".lovable/system.md": "f5dbc19583d29fdc578ab48a69fd8a1c",
+      "LICENSE": "269283f3ad9409f2fa9ef7b364a95535",
+      "README.md": "beddb78f06bb1b79165869abca482e0d",
+      "SPACEFAST.md": "d0b977b8a99bfada0dfe48d35f4304e0",
+      "bunfig.toml": "25f4c8696b22b0943db7191e0cdf7942",
+      "docs/architecture.md": "36049d094c26db25e1f284e4999e7d26",
+      "docs/deployment.md": "643425098fe1b2e3c8b16de0009df9be",
+      "docs/environment.md": "69e7bd4737a2bd349b2beda2a6b100af",
+      "eslint.config.js": "07a67437fb1a45ab36d6de0145ff09de",
+      "lovable.toml": "9636c1bf32f9901bfba4eabb92981217",
+      "mockupPreviewPlugin.ts": "08be2d15337c9b4145cc506cdf63a04e",
+      "package.json": "1da268990ce5bbf47a30485516a967ee",
+      "public/.well-known/agent.json": "3156f5fb6997ee9274814d9a06421472",
+      "public/_redirects": "86d2a11e4318cb801fd817ef22120bf0",
+      "public/carbon.txt": "df9678b07c563efec0ac8bf0a24e56bd",
+      "public/favicon.png": "788ba73de92555c006b9b457fc3a7a7d",
+      "public/llms.txt": "a8a14359dd795a82cd1545c31fc55045",
+      "public/robots.txt": "f560c79b3a33f625c5d97efc689592e7",
+      "public/showcase/gradient.gif": "cc9f538bd7391e7ea9e2cb09be7646d5",
+      "public/showcase/include-demo.html": "df3b6f70b3d2b494b3c446f668d21c67",
+      "public/sitemap.xml": "a3149ce24e521b190283a56afe5f2ac8",
+      "roadmap.md": "c1ea5195c02e1fc370897c9f9e733134",
+      "scripts/build-vendor.ts": "f0542692af66a6386d8789b0aad3bc66",
+      "scripts/copy-static-output.mjs": "0c518dabc2234527177a1527f4ac1e4a",
+      "scripts/vendor-entry.js": "767ad302cec2dc25434e86ef347bccfc",
+      "scripts/vendor-entry.ssr.js": "739d41733d792e985bac97fbea69844e",
+      "src/assets/logos/brand-mark.png": "b3ce7aabefdb8d6c72fded99390c1d5a",
+      "src/index.ts": "e7edf07ca9c40a99cebf68be87c8b772",
+      "src/mockup-preview.d.ts": "38969839f35ce2966e32a9f01a5c09ea",
+      "src/routeTree.gen.ts": "797224a328ce0f3ed57070df932e4fbe",
+      "src/router.tsx": "09200cb04524a56b392150aa62f08139",
+      "src/routes/[__component].preview.$.tsx": "3a40af1fe37daff2e891175a6e6d4f99",
+      "src/routes/[__mockup].preview.$.tsx": "5d9f42470848aa60148f20f9580e240e",
+      "src/routes/__root.tsx": "ec6c70522cc9e4b6ae5e4ab5d0f248ec",
+      "src/routes/colors.tsx": "597e6450df8a1ba618840ae16dc7b61b",
+      "src/routes/components.tsx": "53aace0ffbea96db2b1985e07cdbf9c9",
+      "src/routes/delivery.tsx": "e4f7ed65858bc8cd72c6a36208009bbc",
+      "src/routes/icons.tsx": "bb79a3dc4bb9d6dbfeeb42b2addc7815",
+      "src/routes/index.tsx": "fc77cb6cca6075940b1755b1a24caacb",
+      "src/routes/licenses.tsx": "25d94c66cd16239aeaca3518537b9029",
+      "src/routes/scale.tsx": "73c6173878af77cde2d70c0ac33bb6f7",
+      "src/routes/theme.tsx": "6328bdd2cd387e6c8060b2dab5ed4b00",
+      "src/routes/typography.tsx": "1d3879bc4e9add95ed8fb6b74f1da903",
+      "src/showcase/component-registry.ts": "6aa9a3badb536377cce1da7af240cb45",
+      "src/showcase/components-page.tsx": "408e33ac3fa8ae9a59cb00586c156163",
+      "src/showcase/delivery.tsx": "259a433868238435315bb0101e019db5",
+      "src/showcase/foundations.tsx": "f200cb9288c17c616ff9b742ad2e4066",
+      "src/showcase/icon-index.ts": "8f2b5dcc0d5e0e02388fc75f5dc1550d",
+      "src/showcase/icons-page.tsx": "74a59b787cfcd1d3f8ede6cc72c3d20a",
+      "src/showcase/overview.tsx": "5dc96f1513346d52c502aa0d572c8d92",
+      "src/showcase/sections/actions.tsx": "a3c8fcf2995ab300f978c4e40e9569e6",
+      "src/showcase/sections/data.tsx": "a53bed5dc655ffb123f27c41ceb8dcbe",
+      "src/showcase/sections/display.tsx": "920aaefa3ae0f8ffa7e21463a241a6d5",
+      "src/showcase/sections/feedback.tsx": "cdb8621abec3818e394eea2b5f3d8ade",
+      "src/showcase/sections/forms.tsx": "e292970115882649f63f4b8579acf777",
+      "src/showcase/sections/navigation.tsx": "364251bcc42405db397ee731b6447e62",
+      "src/showcase/sections/overlays.tsx": "d2b4fb60939288812997bbaac71fa666",
+      "src/showcase/sections/utilities.tsx": "f61b67dcdec453a8013285a0fa29920b",
+      "src/showcase/seo.ts": "44339cf3374ffe727c4c52a039d8e2d5",
+      "src/showcase/shell.tsx": "85878676a87267583af4312d817f1de3",
+      "src/showcase/showcase.css": "09c2b176398247a1b608d8423dad15d0",
+      "src/showcase/theme-page.tsx": "eeb144f8f71febb9a6c88d0fad3fa8c5",
+      "src/showcase/ui.tsx": "c09ee65a16d32205fa391966e1944f4f",
+      "src/styles.css": "ee6a5eab0a170ce2f071b1fda3daac1b",
+      "src/webawesome/brand.css": "87162925bacbe1c6d08c7d06b77cdfc2",
+      "src/webawesome/cdn.ts": "0bfad8670cc28771c2b8032cc25a59c3",
+      "src/webawesome/index.ts": "d5885e67f11e20d2241f8d81e04209fd",
+      "src/webawesome/patterns/hcaptcha.tsx": "1d02f0a201718d97e422812d0cab6507",
+      "src/webawesome/patterns/index.ts": "a0b3495a95ca439364090295a8bd8478",
+      "src/webawesome/patterns/licenses.tsx": "11ecf9c65ddd8d3c1b0e09970e5c7521",
+      "src/webawesome/patterns/patterns.css": "f57431cf3de95fd4a6d6efc62832a571",
+      "src/webawesome/patterns/site-footer.tsx": "3fd79d7486c4d93d19a0557c3ea1a8a3",
+      "src/webawesome/react/accordion-item.tsx": "583e3c3c62dfdb7f3b5c1aeeb3fc0d26",
+      "src/webawesome/react/accordion.tsx": "58f4b8151944a33e9bad3419f08d8906",
+      "src/webawesome/react/animated-image.tsx": "2111ace85c46384ef360eae72e59df41",
+      "src/webawesome/react/animation.tsx": "edce1df84cc70a0c9b02fb2d1265875d",
+      "src/webawesome/react/avatar.tsx": "41db2c8eba49c22f7ce1c42d8fe0804e",
+      "src/webawesome/react/badge.tsx": "a9ef5f1aca3afe7be2c52a8a08cb19ab",
+      "src/webawesome/react/breadcrumb-item.tsx": "a6450e63720f731a5f7b1bfd8bd9c754",
+      "src/webawesome/react/breadcrumb.tsx": "4b97ea158198289a2d4ae62f2d07a8f7",
+      "src/webawesome/react/button-group.tsx": "6c45ccc59199602aa5082946236f6be3",
+      "src/webawesome/react/button.tsx": "c000d381f93f780633007a71d13de833",
+      "src/webawesome/react/callout.tsx": "5b276164937e88b72f396e06f71974c8",
+      "src/webawesome/react/card.tsx": "32f6d82cece43b644f0e5e2774d604f1",
+      "src/webawesome/react/carousel-item.tsx": "56ccb64a49f44cbd3745ec88e5771c5b",
+      "src/webawesome/react/carousel.tsx": "361fa210a5a476d149d6ad91d5921da3",
+      "src/webawesome/react/checkbox-group.tsx": "c25a47ddf384a2d28cfdd4466bfba88b",
+      "src/webawesome/react/checkbox.tsx": "056ae93b9bac1855495f47f53aaa57aa",
+      "src/webawesome/react/color-picker.tsx": "79db4c6504069d1f234f7745052b15dd",
+      "src/webawesome/react/comparison.tsx": "87afc42ea7d4fff39414b05cfad80e5b",
+      "src/webawesome/react/copy-button.tsx": "3c9eff7867ee71e84c214f46190b0d4d",
+      "src/webawesome/react/create-component.tsx": "e8832a0d4db1c8cd1149d10a76bc9a26",
+      "src/webawesome/react/details.tsx": "2a0b0db783376c0d3bf1116a87de2f8f",
+      "src/webawesome/react/dialog.tsx": "b994009eae8a7b2cdf56181c33bd8e43",
+      "src/webawesome/react/divider.tsx": "c485f3add17c9ed4b45758da0647c9c4",
+      "src/webawesome/react/drawer.tsx": "ead24d323bff1cbbf958a2a386d06481",
+      "src/webawesome/react/dropdown-item.tsx": "c70964730927f45d1bb8f466801aa734",
+      "src/webawesome/react/dropdown.tsx": "477ce43ef45f009a6b373ebc58c7779d",
+      "src/webawesome/react/format-bytes.tsx": "3598a8811c2573051bd4404d4f72145e",
+      "src/webawesome/react/format-date.tsx": "00ccfacd96ae6f451d273e992f1dc300",
+      "src/webawesome/react/format-number.tsx": "ec861fe5a8f19f52c32a90b04f0b655f",
+      "src/webawesome/react/icon.tsx": "ec600c4d4ff86052492603b1ce7f8548",
+      "src/webawesome/react/include.tsx": "471b88f9ff3cdbe2b7ba1cb7deea54e2",
+      "src/webawesome/react/index.ts": "4b742958583cdad9e17c890851213104",
+      "src/webawesome/react/input.tsx": "6a01f40560b0fc7e0875f9dbd1a87bd0",
+      "src/webawesome/react/intersection-observer.tsx": "3d05985de1549ef6d079f038b83668ed",
+      "src/webawesome/react/known-date.tsx": "2b47932ad7dedbb7f16918f5e86fd440",
+      "src/webawesome/react/markdown.tsx": "eb5c273650f32371262c598e13e6f2ee",
+      "src/webawesome/react/mutation-observer.tsx": "40a03e4a04d4b1715b6b947dbe50f82a",
+      "src/webawesome/react/number-input.tsx": "b1ed3bd50eb73fac1ff900a5cc36c890",
+      "src/webawesome/react/option.tsx": "f5a3f833763a1245b35c0b79f708d41e",
+      "src/webawesome/react/otp-input.tsx": "7088064c35d022da2dc215f95ed1191f",
+      "src/webawesome/react/page.tsx": "0eaa15c512cf1553b8699c0ff6b774dd",
+      "src/webawesome/react/pagination.tsx": "3bbf656ad1c39d58c1c311e95986d9ff",
+      "src/webawesome/react/popover.tsx": "1053d48138a0d43f7b508ebdf47afa42",
+      "src/webawesome/react/popup.tsx": "4ab6ea945d0a5f5fd83e4ee46aa06891",
+      "src/webawesome/react/progress-bar.tsx": "fb2fd47b4e4b05d44e5fad3e4b6c9afc",
+      "src/webawesome/react/progress-ring.tsx": "39e1c72bd376e8d554f449538da8e46c",
+      "src/webawesome/react/qr-code.tsx": "2dd19fc470f483a9b9929ea3323c3c3b",
+      "src/webawesome/react/radio-group.tsx": "0c9e6175b2fc5bc4c6668023db2ffda9",
+      "src/webawesome/react/radio.tsx": "a8cad6cb8f2362071cec3941afdbeff0",
+      "src/webawesome/react/random-content.tsx": "5939503ebee72d29d3b6f5cdbad88c3e",
+      "src/webawesome/react/rating.tsx": "a90fc5e6a1746d70a46c9dd7f390dc5d",
+      "src/webawesome/react/relative-time.tsx": "aad97ff64b6a1b9f36198949c51e8fd2",
+      "src/webawesome/react/resize-observer.tsx": "b443854b1d1aa14ffe4054349b85a1db",
+      "src/webawesome/react/scroller.tsx": "ae35e2ac1362aa1adfa2da3f5e06cb28",
+      "src/webawesome/react/select.tsx": "e9cb1617b3b384219f4f13b6d76aec64",
+      "src/webawesome/react/skeleton.tsx": "eca75a14e96c2e7e33e5b75100747d25",
+      "src/webawesome/react/slider.tsx": "db91bffb5bd27a95a6f9552b7fa3d9ec",
+      "src/webawesome/react/spinner.tsx": "55567cc3648b26001d8d74baf9990772",
+      "src/webawesome/react/split-panel.tsx": "eb0ea1da25759c30941500160db2159c",
+      "src/webawesome/react/switch.tsx": "0d11cee3871dd70483658cdcaa75ed44",
+      "src/webawesome/react/tab-group.tsx": "8f24d05553245d004defbe417fbc9d16",
+      "src/webawesome/react/tab-panel.tsx": "e9becfa7a3d513ac2cd13d51b6e4ef26",
+      "src/webawesome/react/tab.tsx": "c81ee0db35588fc7d40ba48b5b03682e",
+      "src/webawesome/react/tag.tsx": "89cc5c96ce32a8b61cf3dbf6c2acc3bd",
+      "src/webawesome/react/textarea.tsx": "19de410d78b704fd8d7ee1f4196b97ad",
+      "src/webawesome/react/time-input.tsx": "a2db7677e074b9a517d424865afb1b19",
+      "src/webawesome/react/toast-item.tsx": "8ccd6083e7eec18178a5e3ce34146d22",
+      "src/webawesome/react/toast.tsx": "3ddfd443f29a21c9ec7e0a66eb0f27a5",
+      "src/webawesome/react/tooltip.tsx": "e0d6880acb701c10a71d121d3a13a8e2",
+      "src/webawesome/react/tree-item.tsx": "fa3bed8e9b50bfd220499175877e0b85",
+      "src/webawesome/react/tree.tsx": "b3ebcfb861580d666c06d43f201ff0de",
+      "src/webawesome/react/zoomable-frame.tsx": "98b37d00b9b3f77f0f618edc7c4a6a62",
+      "src/webawesome/setup.tsx": "2627f3c703dbf5bf2719f920499c6a9a",
+      "src/webawesome/ssr/render.server.ts": "0fc40206330b65d60a4e136f437ec2b8",
+      "src/webawesome/theme-editor-write.server.ts": "e341d9a967e17e49817be5f0bad30b87",
+      "src/webawesome/theme-editor.functions.ts": "888e2a9b8fe10eec34e0c65540bdd0da",
+      "src/webawesome/theme-editor/index.ts": "3390eb81150b18ad64eae590bdd55a54",
+      "src/webawesome/theme-editor/theme-editor.css": "b5353c63b5dc5b2a1eccc5c8e42d7906",
+      "src/webawesome/theme-editor/theme-editor.tsx": "91efeccd48c8ac17b37125210c9cf538",
+      "src/webawesome/theme-editor/theme-tokens.ts": "008bcedd6971f5f9eac745afafb45f8a",
+      "src/webawesome/theme-editor/use-theme-overrides.ts": "7fd76a7c6f99a566a5d67a677e8cedab",
+      "src/webawesome/theme.css": "d701194fedb563b9eea5e1b621a36a03",
+      "src/webawesome/tokens.css": "14250ea65cab53f9cfcbcf167cf5bda8",
+      "src/webawesome/types.d.ts": "5d63fa2c07805347f0342714f6f41ff9",
+      "src/webawesome/vendor/webawesome.bundle.d.ts": "ed0efd1c745edc755aed008d0a54249f",
+      "src/webawesome/vendor/webawesome.bundle.js": "bb7e6cade8c4833db3e64c296f4e3c38",
+      "src/webawesome/vendor/webawesome.ssr.bundle.d.ts": "845b9ba7ff82109fee8fa32b2fafa34c",
+      "src/webawesome/vendor/webawesome.ssr.bundle.js": "a286512f3bb554f72cb1c162d632e4f8",
+      "tsconfig.json": "994abf64c2b9f78b568879f80ed0170e",
+      "vite.config.ts": "330f7e6251fe091deb98ed835638ce79"
+    },
+    "pipeline_version": 8
+  },
+  "tokens": {
+    "color": [
+      {
+        "name": "--wa-color-surface-raised",
+        "raw": "white",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-surface-default",
+        "raw": "white",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-overlay-modal",
+        "raw": "color-mix(in oklab, var(--wa-color-neutral-05) 50%, transparent)",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-overlay-inline",
+        "raw": "color-mix(in oklab, var(--wa-color-neutral-80) 25%, transparent)",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-mix-hover",
+        "raw": "oklch(from currentColor calc(1 - l) c h) 10%",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-brand-on-loud",
+        "raw": "white",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-success-on-loud",
+        "raw": "white",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-warning-on-loud",
+        "raw": "white",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-danger-on-loud",
+        "raw": "white",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-neutral-on-loud",
+        "raw": "white",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-surface-lowered",
+        "raw": "color-mix(in oklab, var(--wa-color-surface-default), black 20%)",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-border-style",
+        "raw": "solid",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-focus-ring-style",
+        "raw": "solid",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-focus-ring-offset",
+        "raw": "0.0625rem",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-form-control-required-content-color",
+        "raw": "inherit",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-red-95",
+        "raw": "#fff0ef",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-red-90",
+        "raw": "#ffdedc",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-red-80",
+        "raw": "#ffb8b6",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-red-70",
+        "raw": "#fd8f90",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-red-60",
+        "raw": "#f3676c",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-red-50",
+        "raw": "#dc3146",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-red-40",
+        "raw": "#b30532",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-red-30",
+        "raw": "#8a132c",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-red-20",
+        "raw": "#631323",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-red-10",
+        "raw": "#3e0913",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-red-05",
+        "raw": "#2a040b",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-red-key",
+        "raw": "50",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-orange-95",
+        "raw": "#fff0e6",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-orange-90",
+        "raw": "#ffdfca",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-orange-80",
+        "raw": "#ffbb94",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-orange-70",
+        "raw": "#ff9266",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-orange-60",
+        "raw": "#f46a45",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-orange-50",
+        "raw": "#cd491c",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-orange-40",
+        "raw": "#9f3501",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-orange-30",
+        "raw": "#802700",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-orange-20",
+        "raw": "#601b00",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-orange-10",
+        "raw": "#3c0d00",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-orange-05",
+        "raw": "#280600",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-orange-key",
+        "raw": "60",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-yellow-95",
+        "raw": "#fef3cd",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-yellow-90",
+        "raw": "#ffe495",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-yellow-80",
+        "raw": "#fac22b",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-yellow-70",
+        "raw": "#ef9d00",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-yellow-60",
+        "raw": "#da7e00",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-yellow-50",
+        "raw": "#b45f04",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-yellow-40",
+        "raw": "#8c4602",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-yellow-30",
+        "raw": "#6f3601",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-yellow-20",
+        "raw": "#532600",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-yellow-10",
+        "raw": "#331600",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-yellow-05",
+        "raw": "#220c00",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-yellow-key",
+        "raw": "80",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-green-95",
+        "raw": "#e3f9e3",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-green-90",
+        "raw": "#c2f2c1",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-green-80",
+        "raw": "#93da98",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-green-70",
+        "raw": "#5dc36f",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-green-60",
+        "raw": "#00ac49",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-green-50",
+        "raw": "#00883c",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-green-40",
+        "raw": "#036730",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-green-30",
+        "raw": "#0a5027",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-green-20",
+        "raw": "#0a3a1d",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-green-10",
+        "raw": "#052310",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-green-05",
+        "raw": "#031608",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-green-key",
+        "raw": "60",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-cyan-95",
+        "raw": "#e3f6fb",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-cyan-90",
+        "raw": "#c5ecf7",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-cyan-80",
+        "raw": "#7fd6ec",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-cyan-70",
+        "raw": "#2fbedc",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-cyan-60",
+        "raw": "#00a3c0",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-cyan-50",
+        "raw": "#078098",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-cyan-40",
+        "raw": "#026274",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-cyan-30",
+        "raw": "#014c5b",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-cyan-20",
+        "raw": "#003844",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-cyan-10",
+        "raw": "#002129",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-cyan-05",
+        "raw": "#00151b",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-cyan-key",
+        "raw": "70",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-blue-95",
+        "raw": "#e8f3ff",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-blue-90",
+        "raw": "#d1e8ff",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-blue-80",
+        "raw": "#9fceff",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-blue-70",
+        "raw": "#6eb3ff",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-blue-60",
+        "raw": "#3e96ff",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-blue-50",
+        "raw": "#0071ec",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-blue-40",
+        "raw": "#0053c0",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-blue-30",
+        "raw": "#003f9c",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-blue-20",
+        "raw": "#002d77",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-blue-10",
+        "raw": "#001a4e",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-blue-05",
+        "raw": "#000f35",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-blue-key",
+        "raw": "50",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-indigo-95",
+        "raw": "#f0f2ff",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-indigo-90",
+        "raw": "#dfe5ff",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-indigo-80",
+        "raw": "#bcc7ff",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-indigo-70",
+        "raw": "#9da9ff",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-indigo-60",
+        "raw": "#808aff",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-indigo-50",
+        "raw": "#6163f2",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-indigo-40",
+        "raw": "#4945cb",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-indigo-30",
+        "raw": "#3933a7",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-indigo-20",
+        "raw": "#292381",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-indigo-10",
+        "raw": "#181255",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-indigo-05",
+        "raw": "#0d0a3a",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-indigo-key",
+        "raw": "50",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-purple-95",
+        "raw": "#f7f0ff",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-purple-90",
+        "raw": "#eedfff",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-purple-80",
+        "raw": "#ddbdff",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-purple-70",
+        "raw": "#ca99ff",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-purple-60",
+        "raw": "#b678f5",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-purple-50",
+        "raw": "#9951db",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-purple-40",
+        "raw": "#7936b3",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-purple-30",
+        "raw": "#612692",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-purple-20",
+        "raw": "#491870",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-purple-10",
+        "raw": "#2d0b48",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-purple-05",
+        "raw": "#1e0532",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-purple-key",
+        "raw": "50",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-pink-95",
+        "raw": "#feeff9",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-pink-90",
+        "raw": "#feddf0",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-pink-80",
+        "raw": "#fcb5d8",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-pink-70",
+        "raw": "#f78dbf",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-pink-60",
+        "raw": "#e66ba3",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-pink-50",
+        "raw": "#c84382",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-pink-40",
+        "raw": "#9e2a6c",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-pink-30",
+        "raw": "#7d1e58",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-pink-20",
+        "raw": "#5e1342",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-pink-10",
+        "raw": "#3c0828",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-pink-05",
+        "raw": "#28041a",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-pink-key",
+        "raw": "50",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-gray-95",
+        "raw": "#f1f2f3",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-gray-90",
+        "raw": "#e4e5e9",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-gray-80",
+        "raw": "#c7c9d0",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-gray-70",
+        "raw": "#abaeb9",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-gray-60",
+        "raw": "#9194a2",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-gray-50",
+        "raw": "#717584",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-gray-40",
+        "raw": "#545868",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-gray-30",
+        "raw": "#424554",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-gray-20",
+        "raw": "#2f323f",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-gray-10",
+        "raw": "#1b1d26",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-gray-05",
+        "raw": "#101219",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-color-gray-key",
+        "raw": "40",
+        "source": "src/webawesome/tokens.css"
+      }
+    ],
+    "spacing": [
+      {
+        "name": "--wa-space-scale",
+        "raw": "1",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-space-3xs",
+        "raw": "calc(var(--wa-space-scale) * 0.125rem)",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-space-2xs",
+        "raw": "calc(var(--wa-space-scale) * 0.25rem)",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-space-xs",
+        "raw": "calc(var(--wa-space-scale) * 0.5rem)",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-space-s",
+        "raw": "calc(var(--wa-space-scale) * 0.75rem)",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-space-m",
+        "raw": "calc(var(--wa-space-scale) * 1rem)",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-space-l",
+        "raw": "calc(var(--wa-space-scale) * 1.5rem)",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-space-xl",
+        "raw": "calc(var(--wa-space-scale) * 2rem)",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-space-2xl",
+        "raw": "calc(var(--wa-space-scale) * 2.5rem)",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-space-3xl",
+        "raw": "calc(var(--wa-space-scale) * 3rem)",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-space-4xl",
+        "raw": "calc(var(--wa-space-scale) * 4rem)",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-space-5xl",
+        "raw": "calc(var(--wa-space-scale) * 5rem)",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-border-width-scale",
+        "raw": "1",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-border-width-s",
+        "raw": "calc(var(--wa-border-width-scale) * 0.0625rem)",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-border-width-m",
+        "raw": "calc(var(--wa-border-width-scale) * 0.125rem)",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-border-width-l",
+        "raw": "calc(var(--wa-border-width-scale) * 0.1875rem)",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-focus-ring-width",
+        "raw": "0.1875rem",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-form-control-padding-block",
+        "raw": "0.75em",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-form-control-padding-inline",
+        "raw": "1em",
+        "source": "src/webawesome/tokens.css"
+      }
+    ],
+    "typography": [
+      {
+        "name": "--wa-font-family-body",
+        "raw": "ui-sans-serif, system-ui, sans-serif",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-font-family-code",
+        "raw": "ui-monospace, monospace",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-font-family-longform",
+        "raw": "ui-serif, serif",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-font-size-scale",
+        "raw": "1",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-font-size-3xs",
+        "raw": "round(calc(var(--wa-font-size-2xs) / 1.125), 1px)",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-font-size-2xs",
+        "raw": "round(calc(var(--wa-font-size-xs) / 1.125), 1px)",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-font-size-xs",
+        "raw": "round(calc(var(--wa-font-size-s) / 1.125), 1px)",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-font-size-s",
+        "raw": "round(calc(var(--wa-font-size-m) / 1.125), 1px)",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-font-size-m",
+        "raw": "calc(1rem * var(--wa-font-size-scale))",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-font-size-l",
+        "raw": "round(calc(var(--wa-font-size-m) * 1.125 * 1.125), 1px)",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-font-size-xl",
+        "raw": "round(calc(var(--wa-font-size-l) * 1.125 * 1.125), 1px)",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-font-size-2xl",
+        "raw": "round(calc(var(--wa-font-size-xl) * 1.125 * 1.125), 1px)",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-font-size-3xl",
+        "raw": "round(calc(var(--wa-font-size-2xl) * 1.125 * 1.125), 1px)",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-font-size-4xl",
+        "raw": "round(calc(var(--wa-font-size-3xl) * 1.125 * 1.125), 1px)",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-font-size-5xl",
+        "raw": "round(calc(var(--wa-font-size-4xl) * 1.125 * 1.125), 1px)",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-font-size-smaller",
+        "raw": "round(calc(1em / 1.125), 1px)",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-font-size-larger",
+        "raw": "round(calc(1em * 1.125 * 1.125), 1px)",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-font-weight-light",
+        "raw": "300",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-font-weight-normal",
+        "raw": "400",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-font-weight-semibold",
+        "raw": "500",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-font-weight-bold",
+        "raw": "600",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-line-height-condensed",
+        "raw": "1.2",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-line-height-normal",
+        "raw": "1.6",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-line-height-expanded",
+        "raw": "2",
+        "source": "src/webawesome/tokens.css"
+      }
+    ],
+    "radius": [
+      {
+        "name": "--wa-border-radius-scale",
+        "raw": "1",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-border-radius-s",
+        "raw": "calc(var(--wa-border-radius-scale) * 0.1875rem)",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-border-radius-m",
+        "raw": "calc(var(--wa-border-radius-scale) * 0.375rem)",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-border-radius-l",
+        "raw": "calc(var(--wa-border-radius-scale) * 0.75rem)",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-border-radius-pill",
+        "raw": "9999px",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-border-radius-circle",
+        "raw": "50%",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-border-radius-square",
+        "raw": "0px",
+        "source": "src/webawesome/tokens.css"
+      }
+    ],
+    "shadow": [
+      {
+        "name": "--wa-color-shadow",
+        "raw": "color-mix(\n      in oklab,\n      var(--wa-color-neutral-05) calc(var(--wa-shadow-blur-scale) * 4% + 8%),\n      transparent\n    )",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-shadow-offset-x-scale",
+        "raw": "0",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-shadow-offset-x-s",
+        "raw": "calc(var(--wa-shadow-offset-x-scale) * 0.125rem)",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-shadow-offset-x-m",
+        "raw": "calc(var(--wa-shadow-offset-x-scale) * 0.25rem)",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-shadow-offset-x-l",
+        "raw": "calc(var(--wa-shadow-offset-x-scale) * 0.5rem)",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-shadow-offset-y-scale",
+        "raw": "1",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-shadow-offset-y-s",
+        "raw": "calc(var(--wa-shadow-offset-y-scale) * 0.125rem)",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-shadow-offset-y-m",
+        "raw": "calc(var(--wa-shadow-offset-y-scale) * 0.25rem)",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-shadow-offset-y-l",
+        "raw": "calc(var(--wa-shadow-offset-y-scale) * 0.5rem)",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-shadow-blur-scale",
+        "raw": "1",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-shadow-blur-s",
+        "raw": "calc(var(--wa-shadow-blur-scale) * 0.125rem)",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-shadow-blur-m",
+        "raw": "calc(var(--wa-shadow-blur-scale) * 0.25rem)",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-shadow-blur-l",
+        "raw": "calc(var(--wa-shadow-blur-scale) * 0.5rem)",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-shadow-spread-scale",
+        "raw": "-0.5",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-shadow-spread-s",
+        "raw": "calc(var(--wa-shadow-spread-scale) * 0.125rem)",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-shadow-spread-m",
+        "raw": "calc(var(--wa-shadow-spread-scale) * 0.25rem)",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-shadow-spread-l",
+        "raw": "calc(var(--wa-shadow-spread-scale) * 0.5rem)",
+        "source": "src/webawesome/tokens.css"
+      }
+    ],
+    "other": [
+      {
+        "name": "--wa-link-decoration-default",
+        "raw": "underline color-mix(in oklab, currentColor 70%, transparent) dotted",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-link-decoration-hover",
+        "raw": "underline",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-transition-easing",
+        "raw": "ease",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-transition-slow",
+        "raw": "300ms",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-transition-normal",
+        "raw": "150ms",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-transition-fast",
+        "raw": "75ms",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-form-control-required-content",
+        "raw": "'*'",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-form-control-required-content-offset",
+        "raw": "0.1em",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-form-control-height",
+        "raw": "round(\n      calc(2 * var(--wa-form-control-padding-block) + 1em * var(--wa-form-control-value-line-height)),\n      1px\n    )",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-form-control-toggle-size",
+        "raw": "round(1.25em, 1px)",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-button-transform-hover",
+        "raw": "none",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-button-transform-active",
+        "raw": "scale(0.9875)",
+        "source": "src/webawesome/tokens.css"
+      },
+      {
+        "name": "--wa-tooltip-arrow-size",
+        "raw": "0.375rem",
+        "source": "src/webawesome/tokens.css"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "WebAwesomeLoader",
+      "file": "src/webawesome/setup",
+      "import_path": "",
+      "props": [
+        {
+          "name": "source",
+          "type": "enum",
+          "values": [
+            "bundle",
+            "cdn"
+          ],
+          "default": "bundle"
+        },
+        {
+          "name": "hydrate",
+          "type": "boolean",
+          "default": "false"
+        }
+      ]
+    },
+    {
+      "name": "WaAccordion",
+      "file": "src/webawesome/react/accordion",
+      "import_path": "",
+      "props": [
+        {
+          "name": "mode",
+          "type": "enum",
+          "values": [
+            "single",
+            "single-collapsible",
+            "multiple"
+          ]
+        },
+        {
+          "name": "icon-placement",
+          "type": "enum",
+          "values": [
+            "start",
+            "end"
+          ]
+        },
+        {
+          "name": "heading-level",
+          "type": "string"
+        },
+        {
+          "name": "appearance",
+          "type": "enum",
+          "values": [
+            "filled",
+            "outlined",
+            "filled-outlined",
+            "plain"
+          ]
+        },
+        {
+          "name": "dir",
+          "type": "string"
+        },
+        {
+          "name": "lang",
+          "type": "string"
+        },
+        {
+          "name": "did-ssr",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "WaAccordionItem",
+      "file": "src/webawesome/react/accordion-item",
+      "import_path": "",
+      "props": [
+        {
+          "name": "label",
+          "type": "string"
+        },
+        {
+          "name": "expanded",
+          "type": "boolean"
+        },
+        {
+          "name": "disabled",
+          "type": "boolean"
+        },
+        {
+          "name": "dir",
+          "type": "string"
+        },
+        {
+          "name": "lang",
+          "type": "string"
+        },
+        {
+          "name": "did-ssr",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "WaAnimatedImage",
+      "file": "src/webawesome/react/animated-image",
+      "import_path": "",
+      "props": [
+        {
+          "name": "src",
+          "type": "string"
+        },
+        {
+          "name": "alt",
+          "type": "string"
+        },
+        {
+          "name": "play",
+          "type": "boolean"
+        },
+        {
+          "name": "dir",
+          "type": "string"
+        },
+        {
+          "name": "lang",
+          "type": "string"
+        },
+        {
+          "name": "did-ssr",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "WaAnimation",
+      "file": "src/webawesome/react/animation",
+      "import_path": "",
+      "props": [
+        {
+          "name": "name",
+          "type": "string"
+        },
+        {
+          "name": "play",
+          "type": "boolean"
+        },
+        {
+          "name": "delay",
+          "type": "number"
+        },
+        {
+          "name": "direction",
+          "type": "string"
+        },
+        {
+          "name": "duration",
+          "type": "number"
+        },
+        {
+          "name": "easing",
+          "type": "string"
+        },
+        {
+          "name": "end-delay",
+          "type": "number"
+        },
+        {
+          "name": "fill",
+          "type": "string"
+        },
+        {
+          "name": "iterations",
+          "type": "number"
+        },
+        {
+          "name": "iteration-start",
+          "type": "number"
+        },
+        {
+          "name": "playback-rate",
+          "type": "number"
+        },
+        {
+          "name": "dir",
+          "type": "string"
+        },
+        {
+          "name": "lang",
+          "type": "string"
+        },
+        {
+          "name": "did-ssr",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "WaAvatar",
+      "file": "src/webawesome/react/avatar",
+      "import_path": "",
+      "props": [
+        {
+          "name": "image",
+          "type": "string"
+        },
+        {
+          "name": "label",
+          "type": "string"
+        },
+        {
+          "name": "initials",
+          "type": "string"
+        },
+        {
+          "name": "loading",
+          "type": "enum",
+          "values": [
+            "eager",
+            "lazy"
+          ]
+        },
+        {
+          "name": "shape",
+          "type": "enum",
+          "values": [
+            "circle",
+            "square",
+            "rounded"
+          ]
+        },
+        {
+          "name": "dir",
+          "type": "string"
+        },
+        {
+          "name": "lang",
+          "type": "string"
+        },
+        {
+          "name": "did-ssr",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "WaBadge",
+      "file": "src/webawesome/react/badge",
+      "import_path": "",
+      "props": [
+        {
+          "name": "variant",
+          "type": "enum",
+          "values": [
+            "brand",
+            "neutral",
+            "success",
+            "warning",
+            "danger"
+          ]
+        },
+        {
+          "name": "appearance",
+          "type": "enum",
+          "values": [
+            "accent",
+            "filled",
+            "outlined",
+            "filled-outlined"
+          ]
+        },
+        {
+          "name": "pill",
+          "type": "boolean"
+        },
+        {
+          "name": "attention",
+          "type": "enum",
+          "values": [
+            "none",
+            "pulse",
+            "bounce"
+          ]
+        },
+        {
+          "name": "dir",
+          "type": "string"
+        },
+        {
+          "name": "lang",
+          "type": "string"
+        },
+        {
+          "name": "did-ssr",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "WaBreadcrumb",
+      "file": "src/webawesome/react/breadcrumb",
+      "import_path": "",
+      "props": [
+        {
+          "name": "label",
+          "type": "string"
+        },
+        {
+          "name": "dir",
+          "type": "string"
+        },
+        {
+          "name": "lang",
+          "type": "string"
+        },
+        {
+          "name": "did-ssr",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "WaBreadcrumbItem",
+      "file": "src/webawesome/react/breadcrumb-item",
+      "import_path": "",
+      "props": [
+        {
+          "name": "href",
+          "type": "string"
+        },
+        {
+          "name": "target",
+          "type": "string"
+        },
+        {
+          "name": "rel",
+          "type": "string"
+        },
+        {
+          "name": "dir",
+          "type": "string"
+        },
+        {
+          "name": "lang",
+          "type": "string"
+        },
+        {
+          "name": "did-ssr",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "WaButton",
+      "file": "src/webawesome/react/button",
+      "import_path": "",
+      "props": [
+        {
+          "name": "variant",
+          "type": "enum",
+          "values": [
+            "neutral",
+            "brand",
+            "success",
+            "warning",
+            "danger"
+          ]
+        },
+        {
+          "name": "appearance",
+          "type": "enum",
+          "values": [
+            "accent",
+            "filled",
+            "outlined",
+            "filled-outlined",
+            "plain"
+          ]
+        },
+        {
+          "name": "size",
+          "type": "enum",
+          "values": [
+            "xs",
+            "s",
+            "m",
+            "l",
+            "xl",
+            "small",
+            "medium",
+            "large"
+          ]
+        },
+        {
+          "name": "with-caret",
+          "type": "boolean"
+        },
+        {
+          "name": "with-start",
+          "type": "boolean"
+        },
+        {
+          "name": "with-end",
+          "type": "boolean"
+        },
+        {
+          "name": "disabled",
+          "type": "boolean"
+        },
+        {
+          "name": "loading",
+          "type": "boolean"
+        },
+        {
+          "name": "pill",
+          "type": "boolean"
+        },
+        {
+          "name": "type",
+          "type": "enum",
+          "values": [
+            "button",
+            "submit",
+            "reset"
+          ]
+        },
+        {
+          "name": "name",
+          "type": "string"
+        },
+        {
+          "name": "value",
+          "type": "string"
+        },
+        {
+          "name": "href",
+          "type": "string"
+        },
+        {
+          "name": "target",
+          "type": "enum",
+          "values": [
+            "_blank",
+            "_parent",
+            "_self",
+            "_top"
+          ]
+        },
+        {
+          "name": "rel",
+          "type": "string"
+        },
+        {
+          "name": "download",
+          "type": "string"
+        },
+        {
+          "name": "formaction",
+          "type": "string"
+        },
+        {
+          "name": "formenctype",
+          "type": "enum",
+          "values": [
+            "application/x-www-form-urlencoded",
+            "multipart/form-data",
+            "text/plain"
+          ]
+        },
+        {
+          "name": "formmethod",
+          "type": "enum",
+          "values": [
+            "post",
+            "get"
+          ]
+        },
+        {
+          "name": "formnovalidate",
+          "type": "boolean"
+        },
+        {
+          "name": "formtarget",
+          "type": "any"
+        },
+        {
+          "name": "custom-error",
+          "type": "string"
+        },
+        {
+          "name": "dir",
+          "type": "string"
+        },
+        {
+          "name": "lang",
+          "type": "string"
+        },
+        {
+          "name": "did-ssr",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "WaButtonGroup",
+      "file": "src/webawesome/react/button-group",
+      "import_path": "",
+      "props": [
+        {
+          "name": "label",
+          "type": "string"
+        },
+        {
+          "name": "orientation",
+          "type": "enum",
+          "values": [
+            "horizontal",
+            "vertical"
+          ]
+        },
+        {
+          "name": "dir",
+          "type": "string"
+        },
+        {
+          "name": "lang",
+          "type": "string"
+        },
+        {
+          "name": "did-ssr",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "WaCallout",
+      "file": "src/webawesome/react/callout",
+      "import_path": "",
+      "props": [
+        {
+          "name": "variant",
+          "type": "enum",
+          "values": [
+            "brand",
+            "neutral",
+            "success",
+            "warning",
+            "danger"
+          ]
+        },
+        {
+          "name": "appearance",
+          "type": "enum",
+          "values": [
+            "accent",
+            "filled",
+            "outlined",
+            "plain",
+            "filled-outlined"
+          ]
+        },
+        {
+          "name": "size",
+          "type": "enum",
+          "values": [
+            "xs",
+            "s",
+            "m",
+            "l",
+            "xl",
+            "small",
+            "medium",
+            "large"
+          ]
+        },
+        {
+          "name": "dir",
+          "type": "string"
+        },
+        {
+          "name": "lang",
+          "type": "string"
+        },
+        {
+          "name": "did-ssr",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "WaCard",
+      "file": "src/webawesome/react/card",
+      "import_path": "",
+      "props": [
+        {
+          "name": "appearance",
+          "type": "enum",
+          "values": [
+            "accent",
+            "filled",
+            "outlined",
+            "filled-outlined",
+            "plain"
+          ]
+        },
+        {
+          "name": "with-header",
+          "type": "boolean"
+        },
+        {
+          "name": "with-media",
+          "type": "boolean"
+        },
+        {
+          "name": "with-footer",
+          "type": "boolean"
+        },
+        {
+          "name": "with-header-actions",
+          "type": "boolean"
+        },
+        {
+          "name": "with-footer-actions",
+          "type": "boolean"
+        },
+        {
+          "name": "orientation",
+          "type": "enum",
+          "values": [
+            "horizontal",
+            "vertical"
+          ]
+        },
+        {
+          "name": "dir",
+          "type": "string"
+        },
+        {
+          "name": "lang",
+          "type": "string"
+        },
+        {
+          "name": "did-ssr",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "WaCarousel",
+      "file": "src/webawesome/react/carousel",
+      "import_path": "",
+      "props": [
+        {
+          "name": "loop",
+          "type": "boolean"
+        },
+        {
+          "name": "slides",
+          "type": "number"
+        },
+        {
+          "name": "currentSlide",
+          "type": "number"
+        },
+        {
+          "name": "navigation",
+          "type": "boolean"
+        },
+        {
+          "name": "pagination",
+          "type": "boolean"
+        },
+        {
+          "name": "autoplay",
+          "type": "boolean"
+        },
+        {
+          "name": "autoplay-interval",
+          "type": "number"
+        },
+        {
+          "name": "slides-per-page",
+          "type": "number"
+        },
+        {
+          "name": "slides-per-move",
+          "type": "number"
+        },
+        {
+          "name": "orientation",
+          "type": "enum",
+          "values": [
+            "horizontal",
+            "vertical"
+          ]
+        },
+        {
+          "name": "mouse-dragging",
+          "type": "boolean"
+        },
+        {
+          "name": "dir",
+          "type": "string"
+        },
+        {
+          "name": "lang",
+          "type": "string"
+        },
+        {
+          "name": "did-ssr",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "WaCarouselItem",
+      "file": "src/webawesome/react/carousel-item",
+      "import_path": "",
+      "props": [
+        {
+          "name": "dir",
+          "type": "string"
+        },
+        {
+          "name": "lang",
+          "type": "string"
+        },
+        {
+          "name": "did-ssr",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "WaCheckbox",
+      "file": "src/webawesome/react/checkbox",
+      "import_path": "",
+      "props": [
+        {
+          "name": "value",
+          "type": "string"
+        },
+        {
+          "name": "size",
+          "type": "enum",
+          "values": [
+            "xs",
+            "s",
+            "m",
+            "l",
+            "xl",
+            "small",
+            "medium",
+            "large"
+          ]
+        },
+        {
+          "name": "disabled",
+          "type": "boolean"
+        },
+        {
+          "name": "indeterminate",
+          "type": "boolean"
+        },
+        {
+          "name": "checked",
+          "type": "boolean"
+        },
+        {
+          "name": "required",
+          "type": "boolean"
+        },
+        {
+          "name": "hint",
+          "type": "string"
+        },
+        {
+          "name": "name",
+          "type": "string"
+        },
+        {
+          "name": "custom-error",
+          "type": "string"
+        },
+        {
+          "name": "dir",
+          "type": "string"
+        },
+        {
+          "name": "lang",
+          "type": "string"
+        },
+        {
+          "name": "did-ssr",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "WaCheckboxGroup",
+      "file": "src/webawesome/react/checkbox-group",
+      "import_path": "",
+      "props": [
+        {
+          "name": "label",
+          "type": "string"
+        },
+        {
+          "name": "hint",
+          "type": "string"
+        },
+        {
+          "name": "orientation",
+          "type": "enum",
+          "values": [
+            "horizontal",
+            "vertical"
+          ]
+        },
+        {
+          "name": "size",
+          "type": "enum",
+          "values": [
+            "xs",
+            "s",
+            "m",
+            "l",
+            "xl",
+            "small",
+            "medium",
+            "large"
+          ]
+        },
+        {
+          "name": "required",
+          "type": "boolean"
+        },
+        {
+          "name": "with-label",
+          "type": "boolean"
+        },
+        {
+          "name": "with-hint",
+          "type": "boolean"
+        },
+        {
+          "name": "dir",
+          "type": "string"
+        },
+        {
+          "name": "lang",
+          "type": "string"
+        },
+        {
+          "name": "did-ssr",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "WaColorPicker",
+      "file": "src/webawesome/react/color-picker",
+      "import_path": "",
+      "props": [
+        {
+          "name": "value",
+          "type": "string"
+        },
+        {
+          "name": "with-label",
+          "type": "boolean"
+        },
+        {
+          "name": "with-hint",
+          "type": "boolean"
+        },
+        {
+          "name": "label",
+          "type": "string"
+        },
+        {
+          "name": "hint",
+          "type": "string"
+        },
+        {
+          "name": "format",
+          "type": "enum",
+          "values": [
+            "hex",
+            "rgb",
+            "hsl",
+            "hsv"
+          ]
+        },
+        {
+          "name": "size",
+          "type": "enum",
+          "values": [
+            "xs",
+            "s",
+            "m",
+            "l",
+            "xl",
+            "small",
+            "medium",
+            "large"
+          ]
+        },
+        {
+          "name": "placement",
+          "type": "string"
+        },
+        {
+          "name": "without-format-toggle",
+          "type": "boolean"
+        },
+        {
+          "name": "name",
+          "type": "string"
+        },
+        {
+          "name": "disabled",
+          "type": "boolean"
+        },
+        {
+          "name": "open",
+          "type": "boolean"
+        },
+        {
+          "name": "opacity",
+          "type": "boolean"
+        },
+        {
+          "name": "uppercase",
+          "type": "boolean"
+        },
+        {
+          "name": "swatches",
+          "type": "string"
+        },
+        {
+          "name": "required",
+          "type": "boolean"
+        },
+        {
+          "name": "custom-error",
+          "type": "string"
+        },
+        {
+          "name": "dir",
+          "type": "string"
+        },
+        {
+          "name": "lang",
+          "type": "string"
+        },
+        {
+          "name": "did-ssr",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "WaComparison",
+      "file": "src/webawesome/react/comparison",
+      "import_path": "",
+      "props": [
+        {
+          "name": "position",
+          "type": "number"
+        },
+        {
+          "name": "dir",
+          "type": "string"
+        },
+        {
+          "name": "lang",
+          "type": "string"
+        },
+        {
+          "name": "did-ssr",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "WaCopyButton",
+      "file": "src/webawesome/react/copy-button",
+      "import_path": "",
+      "props": [
+        {
+          "name": "value",
+          "type": "string"
+        },
+        {
+          "name": "from",
+          "type": "string"
+        },
+        {
+          "name": "disabled",
+          "type": "boolean"
+        },
+        {
+          "name": "copy-label",
+          "type": "string"
+        },
+        {
+          "name": "success-label",
+          "type": "string"
+        },
+        {
+          "name": "error-label",
+          "type": "string"
+        },
+        {
+          "name": "feedback-duration",
+          "type": "number"
+        },
+        {
+          "name": "tooltip-placement",
+          "type": "enum",
+          "values": [
+            "top",
+            "right",
+            "bottom",
+            "left"
+          ]
+        },
+        {
+          "name": "tooltip",
+          "type": "enum",
+          "values": [
+            "full",
+            "copy",
+            "none"
+          ]
+        },
+        {
+          "name": "dir",
+          "type": "string"
+        },
+        {
+          "name": "lang",
+          "type": "string"
+        },
+        {
+          "name": "did-ssr",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "WaDetails",
+      "file": "src/webawesome/react/details",
+      "import_path": "",
+      "props": [
+        {
+          "name": "open",
+          "type": "boolean"
+        },
+        {
+          "name": "summary",
+          "type": "string"
+        },
+        {
+          "name": "name",
+          "type": "string"
+        },
+        {
+          "name": "disabled",
+          "type": "boolean"
+        },
+        {
+          "name": "appearance",
+          "type": "enum",
+          "values": [
+            "filled",
+            "outlined",
+            "filled-outlined",
+            "plain"
+          ]
+        },
+        {
+          "name": "icon-placement",
+          "type": "enum",
+          "values": [
+            "start",
+            "end"
+          ]
+        },
+        {
+          "name": "dir",
+          "type": "string"
+        },
+        {
+          "name": "lang",
+          "type": "string"
+        },
+        {
+          "name": "did-ssr",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "WaDialog",
+      "file": "src/webawesome/react/dialog",
+      "import_path": "",
+      "props": [
+        {
+          "name": "open",
+          "type": "boolean"
+        },
+        {
+          "name": "label",
+          "type": "string"
+        },
+        {
+          "name": "without-header",
+          "type": "boolean"
+        },
+        {
+          "name": "light-dismiss",
+          "type": "boolean"
+        },
+        {
+          "name": "with-footer",
+          "type": "boolean"
+        },
+        {
+          "name": "dir",
+          "type": "string"
+        },
+        {
+          "name": "lang",
+          "type": "string"
+        },
+        {
+          "name": "did-ssr",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "WaDivider",
+      "file": "src/webawesome/react/divider",
+      "import_path": "",
+      "props": [
+        {
+          "name": "orientation",
+          "type": "enum",
+          "values": [
+            "horizontal",
+            "vertical"
+          ]
+        },
+        {
+          "name": "dir",
+          "type": "string"
+        },
+        {
+          "name": "lang",
+          "type": "string"
+        },
+        {
+          "name": "did-ssr",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "WaDrawer",
+      "file": "src/webawesome/react/drawer",
+      "import_path": "",
+      "props": [
+        {
+          "name": "open",
+          "type": "boolean"
+        },
+        {
+          "name": "label",
+          "type": "string"
+        },
+        {
+          "name": "placement",
+          "type": "enum",
+          "values": [
+            "top",
+            "end",
+            "bottom",
+            "start"
+          ]
+        },
+        {
+          "name": "without-header",
+          "type": "boolean"
+        },
+        {
+          "name": "light-dismiss",
+          "type": "boolean"
+        },
+        {
+          "name": "with-footer",
+          "type": "boolean"
+        },
+        {
+          "name": "dir",
+          "type": "string"
+        },
+        {
+          "name": "lang",
+          "type": "string"
+        },
+        {
+          "name": "did-ssr",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "WaDropdown",
+      "file": "src/webawesome/react/dropdown",
+      "import_path": "",
+      "props": [
+        {
+          "name": "open",
+          "type": "boolean"
+        },
+        {
+          "name": "size",
+          "type": "enum",
+          "values": [
+            "xs",
+            "s",
+            "m",
+            "l",
+            "xl",
+            "small",
+            "medium",
+            "large"
+          ]
+        },
+        {
+          "name": "placement",
+          "type": "string"
+        },
+        {
+          "name": "distance",
+          "type": "number"
+        },
+        {
+          "name": "skidding",
+          "type": "number"
+        },
+        {
+          "name": "dir",
+          "type": "string"
+        },
+        {
+          "name": "lang",
+          "type": "string"
+        },
+        {
+          "name": "did-ssr",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "WaDropdownItem",
+      "file": "src/webawesome/react/dropdown-item",
+      "import_path": "",
+      "props": [
+        {
+          "name": "variant",
+          "type": "enum",
+          "values": [
+            "danger",
+            "default"
+          ]
+        },
+        {
+          "name": "value",
+          "type": "string"
+        },
+        {
+          "name": "type",
+          "type": "enum",
+          "values": [
+            "normal",
+            "checkbox"
+          ]
+        },
+        {
+          "name": "checked",
+          "type": "boolean"
+        },
+        {
+          "name": "disabled",
+          "type": "boolean"
+        },
+        {
+          "name": "submenuOpen",
+          "type": "boolean"
+        },
+        {
+          "name": "href",
+          "type": "string"
+        },
+        {
+          "name": "target",
+          "type": "enum",
+          "values": [
+            "_blank",
+            "_parent",
+            "_self",
+            "_top"
+          ]
+        },
+        {
+          "name": "rel",
+          "type": "string"
+        },
+        {
+          "name": "download",
+          "type": "string"
+        },
+        {
+          "name": "dir",
+          "type": "string"
+        },
+        {
+          "name": "lang",
+          "type": "string"
+        },
+        {
+          "name": "did-ssr",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "WaFormatBytes",
+      "file": "src/webawesome/react/format-bytes",
+      "import_path": "",
+      "props": [
+        {
+          "name": "value",
+          "type": "number"
+        },
+        {
+          "name": "unit",
+          "type": "enum",
+          "values": [
+            "byte",
+            "bit"
+          ]
+        },
+        {
+          "name": "display",
+          "type": "enum",
+          "values": [
+            "long",
+            "short",
+            "narrow"
+          ]
+        },
+        {
+          "name": "dir",
+          "type": "string"
+        },
+        {
+          "name": "lang",
+          "type": "string"
+        },
+        {
+          "name": "did-ssr",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "WaFormatDate",
+      "file": "src/webawesome/react/format-date",
+      "import_path": "",
+      "props": [
+        {
+          "name": "date",
+          "type": "string"
+        },
+        {
+          "name": "weekday",
+          "type": "enum",
+          "values": [
+            "narrow",
+            "short",
+            "long"
+          ]
+        },
+        {
+          "name": "era",
+          "type": "enum",
+          "values": [
+            "narrow",
+            "short",
+            "long"
+          ]
+        },
+        {
+          "name": "year",
+          "type": "enum",
+          "values": [
+            "numeric",
+            "2-digit"
+          ]
+        },
+        {
+          "name": "month",
+          "type": "enum",
+          "values": [
+            "numeric",
+            "2-digit",
+            "narrow",
+            "short",
+            "long"
+          ]
+        },
+        {
+          "name": "day",
+          "type": "enum",
+          "values": [
+            "numeric",
+            "2-digit"
+          ]
+        },
+        {
+          "name": "hour",
+          "type": "enum",
+          "values": [
+            "numeric",
+            "2-digit"
+          ]
+        },
+        {
+          "name": "minute",
+          "type": "enum",
+          "values": [
+            "numeric",
+            "2-digit"
+          ]
+        },
+        {
+          "name": "second",
+          "type": "enum",
+          "values": [
+            "numeric",
+            "2-digit"
+          ]
+        },
+        {
+          "name": "time-zone-name",
+          "type": "enum",
+          "values": [
+            "short",
+            "long"
+          ]
+        },
+        {
+          "name": "time-zone",
+          "type": "string"
+        },
+        {
+          "name": "hour-format",
+          "type": "enum",
+          "values": [
+            "auto",
+            "12",
+            "24"
+          ]
+        },
+        {
+          "name": "dir",
+          "type": "string"
+        },
+        {
+          "name": "lang",
+          "type": "string"
+        },
+        {
+          "name": "did-ssr",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "WaFormatNumber",
+      "file": "src/webawesome/react/format-number",
+      "import_path": "",
+      "props": [
+        {
+          "name": "value",
+          "type": "number"
+        },
+        {
+          "name": "type",
+          "type": "enum",
+          "values": [
+            "currency",
+            "decimal",
+            "percent"
+          ]
+        },
+        {
+          "name": "without-grouping",
+          "type": "boolean"
+        },
+        {
+          "name": "currency",
+          "type": "string"
+        },
+        {
+          "name": "currency-display",
+          "type": "enum",
+          "values": [
+            "symbol",
+            "narrowSymbol",
+            "code",
+            "name"
+          ]
+        },
+        {
+          "name": "minimum-integer-digits",
+          "type": "number"
+        },
+        {
+          "name": "minimum-fraction-digits",
+          "type": "number"
+        },
+        {
+          "name": "maximum-fraction-digits",
+          "type": "number"
+        },
+        {
+          "name": "minimum-significant-digits",
+          "type": "number"
+        },
+        {
+          "name": "maximum-significant-digits",
+          "type": "number"
+        },
+        {
+          "name": "dir",
+          "type": "string"
+        },
+        {
+          "name": "lang",
+          "type": "string"
+        },
+        {
+          "name": "did-ssr",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "WaIcon",
+      "file": "src/webawesome/react/icon",
+      "import_path": "",
+      "props": [
+        {
+          "name": "name",
+          "type": "string"
+        },
+        {
+          "name": "family",
+          "type": "string"
+        },
+        {
+          "name": "variant",
+          "type": "string"
+        },
+        {
+          "name": "canvas",
+          "type": "string"
+        },
+        {
+          "name": "auto-width",
+          "type": "boolean"
+        },
+        {
+          "name": "swap-opacity",
+          "type": "boolean"
+        },
+        {
+          "name": "src",
+          "type": "string"
+        },
+        {
+          "name": "label",
+          "type": "string"
+        },
+        {
+          "name": "library",
+          "type": "string"
+        },
+        {
+          "name": "rotate",
+          "type": "number"
+        },
+        {
+          "name": "flip",
+          "type": "string"
+        },
+        {
+          "name": "animation",
+          "type": "string"
+        },
+        {
+          "name": "dir",
+          "type": "string"
+        },
+        {
+          "name": "lang",
+          "type": "string"
+        },
+        {
+          "name": "did-ssr",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "WaInclude",
+      "file": "src/webawesome/react/include",
+      "import_path": "",
+      "props": [
+        {
+          "name": "src",
+          "type": "string"
+        },
+        {
+          "name": "mode",
+          "type": "enum",
+          "values": [
+            "cors",
+            "no-cors",
+            "same-origin"
+          ]
+        },
+        {
+          "name": "allow-scripts",
+          "type": "boolean"
+        },
+        {
+          "name": "dir",
+          "type": "string"
+        },
+        {
+          "name": "lang",
+          "type": "string"
+        },
+        {
+          "name": "did-ssr",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "WaInput",
+      "file": "src/webawesome/react/input",
+      "import_path": "",
+      "props": [
+        {
+          "name": "type",
+          "type": "string"
+        },
+        {
+          "name": "value",
+          "type": "string"
+        },
+        {
+          "name": "size",
+          "type": "enum",
+          "values": [
+            "xs",
+            "s",
+            "m",
+            "l",
+            "xl",
+            "small",
+            "medium",
+            "large"
+          ]
+        },
+        {
+          "name": "appearance",
+          "type": "enum",
+          "values": [
+            "filled",
+            "outlined",
+            "filled-outlined"
+          ]
+        },
+        {
+          "name": "pill",
+          "type": "boolean"
+        },
+        {
+          "name": "label",
+          "type": "string"
+        },
+        {
+          "name": "hint",
+          "type": "string"
+        },
+        {
+          "name": "with-clear",
+          "type": "boolean"
+        },
+        {
+          "name": "placeholder",
+          "type": "string"
+        },
+        {
+          "name": "readonly",
+          "type": "boolean"
+        },
+        {
+          "name": "password-toggle",
+          "type": "boolean"
+        },
+        {
+          "name": "password-visible",
+          "type": "boolean"
+        },
+        {
+          "name": "without-spin-buttons",
+          "type": "boolean"
+        },
+        {
+          "name": "required",
+          "type": "boolean"
+        },
+        {
+          "name": "pattern",
+          "type": "string"
+        },
+        {
+          "name": "minlength",
+          "type": "number"
+        },
+        {
+          "name": "maxlength",
+          "type": "number"
+        },
+        {
+          "name": "min",
+          "type": "any"
+        },
+        {
+          "name": "max",
+          "type": "any"
+        },
+        {
+          "name": "step",
+          "type": "any"
+        },
+        {
+          "name": "autocapitalize",
+          "type": "enum",
+          "values": [
+            "off",
+            "none",
+            "on",
+            "sentences",
+            "words",
+            "characters"
+          ]
+        },
+        {
+          "name": "autocorrect",
+          "type": "boolean"
+        },
+        {
+          "name": "autocomplete",
+          "type": "string"
+        },
+        {
+          "name": "autofocus",
+          "type": "boolean"
+        },
+        {
+          "name": "enterkeyhint",
+          "type": "enum",
+          "values": [
+            "enter",
+            "done",
+            "go",
+            "next",
+            "previous",
+            "search",
+            "send"
+          ]
+        },
+        {
+          "name": "spellcheck",
+          "type": "boolean"
+        },
+        {
+          "name": "inputmode",
+          "type": "enum",
+          "values": [
+            "none",
+            "text",
+            "decimal",
+            "numeric",
+            "tel",
+            "search",
+            "email",
+            "url"
+          ]
+        },
+        {
+          "name": "with-label",
+          "type": "boolean"
+        },
+        {
+          "name": "with-hint",
+          "type": "boolean"
+        },
+        {
+          "name": "name",
+          "type": "string"
+        },
+        {
+          "name": "disabled",
+          "type": "boolean"
+        },
+        {
+          "name": "custom-error",
+          "type": "string"
+        },
+        {
+          "name": "dir",
+          "type": "string"
+        },
+        {
+          "name": "lang",
+          "type": "string"
+        },
+        {
+          "name": "did-ssr",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "WaIntersectionObserver",
+      "file": "src/webawesome/react/intersection-observer",
+      "import_path": "",
+      "props": [
+        {
+          "name": "root",
+          "type": "string"
+        },
+        {
+          "name": "root-margin",
+          "type": "string"
+        },
+        {
+          "name": "threshold",
+          "type": "string"
+        },
+        {
+          "name": "intersect-class",
+          "type": "string"
+        },
+        {
+          "name": "once",
+          "type": "boolean"
+        },
+        {
+          "name": "disabled",
+          "type": "boolean"
+        },
+        {
+          "name": "dir",
+          "type": "string"
+        },
+        {
+          "name": "lang",
+          "type": "string"
+        },
+        {
+          "name": "did-ssr",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "WaKnownDate",
+      "file": "src/webawesome/react/known-date",
+      "import_path": "",
+      "props": [
+        {
+          "name": "name",
+          "type": "string"
+        },
+        {
+          "name": "value",
+          "type": "string"
+        },
+        {
+          "name": "disabled",
+          "type": "boolean"
+        },
+        {
+          "name": "required",
+          "type": "boolean"
+        },
+        {
+          "name": "readonly",
+          "type": "boolean"
+        },
+        {
+          "name": "size",
+          "type": "string"
+        },
+        {
+          "name": "appearance",
+          "type": "string"
+        },
+        {
+          "name": "pill",
+          "type": "boolean"
+        },
+        {
+          "name": "label",
+          "type": "string"
+        },
+        {
+          "name": "hint",
+          "type": "string"
+        },
+        {
+          "name": "autocomplete",
+          "type": "string"
+        },
+        {
+          "name": "min",
+          "type": "string"
+        },
+        {
+          "name": "max",
+          "type": "string"
+        },
+        {
+          "name": "locale",
+          "type": "string"
+        },
+        {
+          "name": "with-label",
+          "type": "boolean"
+        },
+        {
+          "name": "with-hint",
+          "type": "boolean"
+        },
+        {
+          "name": "custom-error",
+          "type": "string"
+        },
+        {
+          "name": "dir",
+          "type": "string"
+        },
+        {
+          "name": "lang",
+          "type": "string"
+        },
+        {
+          "name": "did-ssr",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "WaMarkdown",
+      "file": "src/webawesome/react/markdown",
+      "import_path": "",
+      "props": [
+        {
+          "name": "tab-size",
+          "type": "number"
+        },
+        {
+          "name": "dir",
+          "type": "string"
+        },
+        {
+          "name": "lang",
+          "type": "string"
+        },
+        {
+          "name": "did-ssr",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "WaMutationObserver",
+      "file": "src/webawesome/react/mutation-observer",
+      "import_path": "",
+      "props": [
+        {
+          "name": "attr",
+          "type": "string"
+        },
+        {
+          "name": "attr-old-value",
+          "type": "boolean"
+        },
+        {
+          "name": "char-data",
+          "type": "boolean"
+        },
+        {
+          "name": "char-data-old-value",
+          "type": "boolean"
+        },
+        {
+          "name": "child-list",
+          "type": "boolean"
+        },
+        {
+          "name": "disabled",
+          "type": "boolean"
+        },
+        {
+          "name": "dir",
+          "type": "string"
+        },
+        {
+          "name": "lang",
+          "type": "string"
+        },
+        {
+          "name": "did-ssr",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "WaNumberInput",
+      "file": "src/webawesome/react/number-input",
+      "import_path": "",
+      "props": [
+        {
+          "name": "value",
+          "type": "string"
+        },
+        {
+          "name": "size",
+          "type": "enum",
+          "values": [
+            "xs",
+            "s",
+            "m",
+            "l",
+            "xl",
+            "small",
+            "medium",
+            "large"
+          ]
+        },
+        {
+          "name": "appearance",
+          "type": "enum",
+          "values": [
+            "filled",
+            "outlined",
+            "filled-outlined"
+          ]
+        },
+        {
+          "name": "pill",
+          "type": "boolean"
+        },
+        {
+          "name": "label",
+          "type": "string"
+        },
+        {
+          "name": "hint",
+          "type": "string"
+        },
+        {
+          "name": "placeholder",
+          "type": "string"
+        },
+        {
+          "name": "readonly",
+          "type": "boolean"
+        },
+        {
+          "name": "required",
+          "type": "boolean"
+        },
+        {
+          "name": "min",
+          "type": "number"
+        },
+        {
+          "name": "max",
+          "type": "number"
+        },
+        {
+          "name": "step",
+          "type": "any"
+        },
+        {
+          "name": "without-steppers",
+          "type": "boolean"
+        },
+        {
+          "name": "autocomplete",
+          "type": "string"
+        },
+        {
+          "name": "autofocus",
+          "type": "boolean"
+        },
+        {
+          "name": "enterkeyhint",
+          "type": "enum",
+          "values": [
+            "enter",
+            "done",
+            "go",
+            "next",
+            "previous",
+            "search",
+            "send"
+          ]
+        },
+        {
+          "name": "inputmode",
+          "type": "enum",
+          "values": [
+            "numeric",
+            "decimal"
+          ]
+        },
+        {
+          "name": "with-label",
+          "type": "boolean"
+        },
+        {
+          "name": "with-hint",
+          "type": "boolean"
+        },
+        {
+          "name": "name",
+          "type": "string"
+        },
+        {
+          "name": "disabled",
+          "type": "boolean"
+        },
+        {
+          "name": "custom-error",
+          "type": "string"
+        },
+        {
+          "name": "dir",
+          "type": "string"
+        },
+        {
+          "name": "lang",
+          "type": "string"
+        },
+        {
+          "name": "did-ssr",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "WaOption",
+      "file": "src/webawesome/react/option",
+      "import_path": "",
+      "props": [
+        {
+          "name": "value",
+          "type": "string"
+        },
+        {
+          "name": "disabled",
+          "type": "boolean"
+        },
+        {
+          "name": "selected",
+          "type": "boolean"
+        },
+        {
+          "name": "label",
+          "type": "string"
+        },
+        {
+          "name": "dir",
+          "type": "string"
+        },
+        {
+          "name": "lang",
+          "type": "string"
+        },
+        {
+          "name": "did-ssr",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "WaOtpInput",
+      "file": "src/webawesome/react/otp-input",
+      "import_path": "",
+      "props": [
+        {
+          "name": "value",
+          "type": "string"
+        },
+        {
+          "name": "length",
+          "type": "number"
+        },
+        {
+          "name": "appearance",
+          "type": "enum",
+          "values": [
+            "outlined",
+            "filled",
+            "filled-outlined",
+            "contained"
+          ]
+        },
+        {
+          "name": "type",
+          "type": "enum",
+          "values": [
+            "numeric",
+            "alpha",
+            "alphanumeric"
+          ]
+        },
+        {
+          "name": "mask",
+          "type": "boolean"
+        },
+        {
+          "name": "case",
+          "type": "enum",
+          "values": [
+            "preserve",
+            "upper",
+            "lower"
+          ]
+        },
+        {
+          "name": "size",
+          "type": "enum",
+          "values": [
+            "xs",
+            "s",
+            "m",
+            "l",
+            "xl",
+            "small",
+            "medium",
+            "large"
+          ]
+        },
+        {
+          "name": "label",
+          "type": "string"
+        },
+        {
+          "name": "hint",
+          "type": "string"
+        },
+        {
+          "name": "format",
+          "type": "string"
+        },
+        {
+          "name": "autocomplete",
+          "type": "string"
+        },
+        {
+          "name": "required",
+          "type": "boolean"
+        },
+        {
+          "name": "readonly",
+          "type": "boolean"
+        },
+        {
+          "name": "autosubmit",
+          "type": "boolean"
+        },
+        {
+          "name": "autofocus",
+          "type": "boolean"
+        },
+        {
+          "name": "with-mask",
+          "type": "boolean"
+        },
+        {
+          "name": "name",
+          "type": "string"
+        },
+        {
+          "name": "disabled",
+          "type": "boolean"
+        },
+        {
+          "name": "custom-error",
+          "type": "string"
+        },
+        {
+          "name": "dir",
+          "type": "string"
+        },
+        {
+          "name": "lang",
+          "type": "string"
+        },
+        {
+          "name": "did-ssr",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "WaPage",
+      "file": "src/webawesome/react/page",
+      "import_path": "",
+      "props": [
+        {
+          "name": "view",
+          "type": "enum",
+          "values": [
+            "mobile",
+            "desktop"
+          ]
+        },
+        {
+          "name": "nav-open",
+          "type": "boolean"
+        },
+        {
+          "name": "mobile-breakpoint",
+          "type": "string"
+        },
+        {
+          "name": "navigation-placement",
+          "type": "enum",
+          "values": [
+            "start",
+            "end"
+          ]
+        },
+        {
+          "name": "disable-navigation-toggle",
+          "type": "boolean"
+        },
+        {
+          "name": "dir",
+          "type": "string"
+        },
+        {
+          "name": "lang",
+          "type": "string"
+        },
+        {
+          "name": "did-ssr",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "WaPagination",
+      "file": "src/webawesome/react/pagination",
+      "import_path": "",
+      "props": [
+        {
+          "name": "total",
+          "type": "number"
+        },
+        {
+          "name": "page-size",
+          "type": "number"
+        },
+        {
+          "name": "page",
+          "type": "number"
+        },
+        {
+          "name": "sibling-count",
+          "type": "number"
+        },
+        {
+          "name": "boundary-count",
+          "type": "number"
+        },
+        {
+          "name": "without-nav",
+          "type": "boolean"
+        },
+        {
+          "name": "with-edges",
+          "type": "boolean"
+        },
+        {
+          "name": "with-summary",
+          "type": "boolean"
+        },
+        {
+          "name": "format",
+          "type": "enum",
+          "values": [
+            "standard",
+            "compact"
+          ]
+        },
+        {
+          "name": "href-template",
+          "type": "string"
+        },
+        {
+          "name": "hide-single-page",
+          "type": "boolean"
+        },
+        {
+          "name": "label",
+          "type": "string"
+        },
+        {
+          "name": "appearance",
+          "type": "enum",
+          "values": [
+            "outlined",
+            "filled",
+            "plain"
+          ]
+        },
+        {
+          "name": "disabled",
+          "type": "boolean"
+        },
+        {
+          "name": "dir",
+          "type": "string"
+        },
+        {
+          "name": "lang",
+          "type": "string"
+        },
+        {
+          "name": "did-ssr",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "WaPopover",
+      "file": "src/webawesome/react/popover",
+      "import_path": "",
+      "props": [
+        {
+          "name": "placement",
+          "type": "string"
+        },
+        {
+          "name": "open",
+          "type": "boolean"
+        },
+        {
+          "name": "distance",
+          "type": "number"
+        },
+        {
+          "name": "skidding",
+          "type": "number"
+        },
+        {
+          "name": "for",
+          "type": "string"
+        },
+        {
+          "name": "without-arrow",
+          "type": "boolean"
+        },
+        {
+          "name": "dir",
+          "type": "string"
+        },
+        {
+          "name": "lang",
+          "type": "string"
+        },
+        {
+          "name": "did-ssr",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "WaPopup",
+      "file": "src/webawesome/react/popup",
+      "import_path": "",
+      "props": [
+        {
+          "name": "anchor",
+          "type": "string"
+        },
+        {
+          "name": "active",
+          "type": "boolean"
+        },
+        {
+          "name": "placement",
+          "type": "string"
+        },
+        {
+          "name": "boundary",
+          "type": "enum",
+          "values": [
+            "viewport",
+            "scroll"
+          ]
+        },
+        {
+          "name": "distance",
+          "type": "number"
+        },
+        {
+          "name": "skidding",
+          "type": "number"
+        },
+        {
+          "name": "arrow",
+          "type": "boolean"
+        },
+        {
+          "name": "arrow-placement",
+          "type": "enum",
+          "values": [
+            "start",
+            "end",
+            "center",
+            "anchor"
+          ]
+        },
+        {
+          "name": "arrow-padding",
+          "type": "number"
+        },
+        {
+          "name": "flip",
+          "type": "boolean"
+        },
+        {
+          "name": "flip-fallback-placements",
+          "type": "string"
+        },
+        {
+          "name": "flip-fallback-strategy",
+          "type": "enum",
+          "values": [
+            "best-fit",
+            "initial"
+          ]
+        },
+        {
+          "name": "flipBoundary",
+          "type": "string"
+        },
+        {
+          "name": "flip-padding",
+          "type": "number"
+        },
+        {
+          "name": "shift",
+          "type": "boolean"
+        },
+        {
+          "name": "shiftBoundary",
+          "type": "string"
+        },
+        {
+          "name": "shift-padding",
+          "type": "number"
+        },
+        {
+          "name": "auto-size",
+          "type": "enum",
+          "values": [
+            "horizontal",
+            "vertical",
+            "both"
+          ]
+        },
+        {
+          "name": "sync",
+          "type": "enum",
+          "values": [
+            "width",
+            "height",
+            "both"
+          ]
+        },
+        {
+          "name": "autoSizeBoundary",
+          "type": "string"
+        },
+        {
+          "name": "auto-size-padding",
+          "type": "number"
+        },
+        {
+          "name": "hover-bridge",
+          "type": "boolean"
+        },
+        {
+          "name": "dir",
+          "type": "string"
+        },
+        {
+          "name": "lang",
+          "type": "string"
+        },
+        {
+          "name": "did-ssr",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "WaProgressBar",
+      "file": "src/webawesome/react/progress-bar",
+      "import_path": "",
+      "props": [
+        {
+          "name": "value",
+          "type": "number"
+        },
+        {
+          "name": "indeterminate",
+          "type": "boolean"
+        },
+        {
+          "name": "label",
+          "type": "string"
+        },
+        {
+          "name": "dir",
+          "type": "string"
+        },
+        {
+          "name": "lang",
+          "type": "string"
+        },
+        {
+          "name": "did-ssr",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "WaProgressRing",
+      "file": "src/webawesome/react/progress-ring",
+      "import_path": "",
+      "props": [
+        {
+          "name": "value",
+          "type": "number"
+        },
+        {
+          "name": "label",
+          "type": "string"
+        },
+        {
+          "name": "dir",
+          "type": "string"
+        },
+        {
+          "name": "lang",
+          "type": "string"
+        },
+        {
+          "name": "did-ssr",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "WaQrCode",
+      "file": "src/webawesome/react/qr-code",
+      "import_path": "",
+      "props": [
+        {
+          "name": "value",
+          "type": "string"
+        },
+        {
+          "name": "label",
+          "type": "string"
+        },
+        {
+          "name": "size",
+          "type": "number"
+        },
+        {
+          "name": "fill",
+          "type": "string"
+        },
+        {
+          "name": "background",
+          "type": "string"
+        },
+        {
+          "name": "radius",
+          "type": "number"
+        },
+        {
+          "name": "error-correction",
+          "type": "enum",
+          "values": [
+            "L",
+            "M",
+            "Q",
+            "H"
+          ]
+        },
+        {
+          "name": "image",
+          "type": "string"
+        },
+        {
+          "name": "image-background",
+          "type": "string"
+        },
+        {
+          "name": "image-coverage",
+          "type": "string"
+        },
+        {
+          "name": "image-padding",
+          "type": "string"
+        },
+        {
+          "name": "dir",
+          "type": "string"
+        },
+        {
+          "name": "lang",
+          "type": "string"
+        },
+        {
+          "name": "did-ssr",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "WaRadio",
+      "file": "src/webawesome/react/radio",
+      "import_path": "",
+      "props": [
+        {
+          "name": "value",
+          "type": "string"
+        },
+        {
+          "name": "appearance",
+          "type": "enum",
+          "values": [
+            "default",
+            "button"
+          ]
+        },
+        {
+          "name": "size",
+          "type": "enum",
+          "values": [
+            "xs",
+            "s",
+            "m",
+            "l",
+            "xl",
+            "small",
+            "medium",
+            "large"
+          ]
+        },
+        {
+          "name": "disabled",
+          "type": "boolean"
+        },
+        {
+          "name": "name",
+          "type": "string"
+        },
+        {
+          "name": "custom-error",
+          "type": "string"
+        },
+        {
+          "name": "dir",
+          "type": "string"
+        },
+        {
+          "name": "lang",
+          "type": "string"
+        },
+        {
+          "name": "did-ssr",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "WaRadioGroup",
+      "file": "src/webawesome/react/radio-group",
+      "import_path": "",
+      "props": [
+        {
+          "name": "label",
+          "type": "string"
+        },
+        {
+          "name": "hint",
+          "type": "string"
+        },
+        {
+          "name": "name",
+          "type": "string"
+        },
+        {
+          "name": "disabled",
+          "type": "boolean"
+        },
+        {
+          "name": "orientation",
+          "type": "enum",
+          "values": [
+            "horizontal",
+            "vertical"
+          ]
+        },
+        {
+          "name": "value",
+          "type": "string"
+        },
+        {
+          "name": "size",
+          "type": "enum",
+          "values": [
+            "xs",
+            "s",
+            "m",
+            "l",
+            "xl",
+            "small",
+            "medium",
+            "large"
+          ]
+        },
+        {
+          "name": "required",
+          "type": "boolean"
+        },
+        {
+          "name": "with-label",
+          "type": "boolean"
+        },
+        {
+          "name": "with-hint",
+          "type": "boolean"
+        },
+        {
+          "name": "custom-error",
+          "type": "string"
+        },
+        {
+          "name": "dir",
+          "type": "string"
+        },
+        {
+          "name": "lang",
+          "type": "string"
+        },
+        {
+          "name": "did-ssr",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "WaRandomContent",
+      "file": "src/webawesome/react/random-content",
+      "import_path": "",
+      "props": [
+        {
+          "name": "items",
+          "type": "number"
+        },
+        {
+          "name": "mode",
+          "type": "enum",
+          "values": [
+            "random",
+            "unique",
+            "sequence"
+          ]
+        },
+        {
+          "name": "autoplay",
+          "type": "boolean"
+        },
+        {
+          "name": "autoplay-interval",
+          "type": "number"
+        },
+        {
+          "name": "animation",
+          "type": "enum",
+          "values": [
+            "none",
+            "fade",
+            "fade-up",
+            "fade-down",
+            "fade-left",
+            "fade-right"
+          ]
+        },
+        {
+          "name": "dir",
+          "type": "string"
+        },
+        {
+          "name": "lang",
+          "type": "string"
+        },
+        {
+          "name": "did-ssr",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "WaRating",
+      "file": "src/webawesome/react/rating",
+      "import_path": "",
+      "props": [
+        {
+          "name": "role",
+          "type": "string"
+        },
+        {
+          "name": "name",
+          "type": "string"
+        },
+        {
+          "name": "label",
+          "type": "string"
+        },
+        {
+          "name": "value",
+          "type": "number"
+        },
+        {
+          "name": "default-value",
+          "type": "number"
+        },
+        {
+          "name": "max",
+          "type": "number"
+        },
+        {
+          "name": "precision",
+          "type": "number"
+        },
+        {
+          "name": "readonly",
+          "type": "boolean"
+        },
+        {
+          "name": "disabled",
+          "type": "boolean"
+        },
+        {
+          "name": "required",
+          "type": "boolean"
+        },
+        {
+          "name": "getSymbol",
+          "type": "string"
+        },
+        {
+          "name": "size",
+          "type": "enum",
+          "values": [
+            "xs",
+            "s",
+            "m",
+            "l",
+            "xl",
+            "small",
+            "medium",
+            "large"
+          ]
+        },
+        {
+          "name": "custom-error",
+          "type": "string"
+        },
+        {
+          "name": "dir",
+          "type": "string"
+        },
+        {
+          "name": "lang",
+          "type": "string"
+        },
+        {
+          "name": "did-ssr",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "WaRelativeTime",
+      "file": "src/webawesome/react/relative-time",
+      "import_path": "",
+      "props": [
+        {
+          "name": "date",
+          "type": "string"
+        },
+        {
+          "name": "format",
+          "type": "enum",
+          "values": [
+            "long",
+            "short",
+            "narrow"
+          ]
+        },
+        {
+          "name": "numeric",
+          "type": "enum",
+          "values": [
+            "always",
+            "auto"
+          ]
+        },
+        {
+          "name": "sync",
+          "type": "boolean"
+        },
+        {
+          "name": "dir",
+          "type": "string"
+        },
+        {
+          "name": "lang",
+          "type": "string"
+        },
+        {
+          "name": "did-ssr",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "WaResizeObserver",
+      "file": "src/webawesome/react/resize-observer",
+      "import_path": "",
+      "props": [
+        {
+          "name": "disabled",
+          "type": "boolean"
+        },
+        {
+          "name": "dir",
+          "type": "string"
+        },
+        {
+          "name": "lang",
+          "type": "string"
+        },
+        {
+          "name": "did-ssr",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "WaScroller",
+      "file": "src/webawesome/react/scroller",
+      "import_path": "",
+      "props": [
+        {
+          "name": "orientation",
+          "type": "enum",
+          "values": [
+            "horizontal",
+            "vertical"
+          ]
+        },
+        {
+          "name": "without-scrollbar",
+          "type": "boolean"
+        },
+        {
+          "name": "without-shadow",
+          "type": "boolean"
+        },
+        {
+          "name": "dir",
+          "type": "string"
+        },
+        {
+          "name": "lang",
+          "type": "string"
+        },
+        {
+          "name": "did-ssr",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "WaSelect",
+      "file": "src/webawesome/react/select",
+      "import_path": "",
+      "props": [
+        {
+          "name": "name",
+          "type": "string"
+        },
+        {
+          "name": "value",
+          "type": "string"
+        },
+        {
+          "name": "size",
+          "type": "enum",
+          "values": [
+            "xs",
+            "s",
+            "m",
+            "l",
+            "xl",
+            "small",
+            "medium",
+            "large"
+          ]
+        },
+        {
+          "name": "placeholder",
+          "type": "string"
+        },
+        {
+          "name": "multiple",
+          "type": "boolean"
+        },
+        {
+          "name": "max-options-visible",
+          "type": "number"
+        },
+        {
+          "name": "disabled",
+          "type": "boolean"
+        },
+        {
+          "name": "with-clear",
+          "type": "boolean"
+        },
+        {
+          "name": "open",
+          "type": "boolean"
+        },
+        {
+          "name": "appearance",
+          "type": "enum",
+          "values": [
+            "filled",
+            "outlined",
+            "filled-outlined"
+          ]
+        },
+        {
+          "name": "pill",
+          "type": "boolean"
+        },
+        {
+          "name": "label",
+          "type": "string"
+        },
+        {
+          "name": "placement",
+          "type": "enum",
+          "values": [
+            "top",
+            "bottom"
+          ]
+        },
+        {
+          "name": "hint",
+          "type": "string"
+        },
+        {
+          "name": "with-label",
+          "type": "boolean"
+        },
+        {
+          "name": "with-hint",
+          "type": "boolean"
+        },
+        {
+          "name": "required",
+          "type": "boolean"
+        },
+        {
+          "name": "custom-error",
+          "type": "string"
+        },
+        {
+          "name": "dir",
+          "type": "string"
+        },
+        {
+          "name": "lang",
+          "type": "string"
+        },
+        {
+          "name": "did-ssr",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "WaSkeleton",
+      "file": "src/webawesome/react/skeleton",
+      "import_path": "",
+      "props": [
+        {
+          "name": "effect",
+          "type": "enum",
+          "values": [
+            "pulse",
+            "sheen",
+            "none"
+          ]
+        },
+        {
+          "name": "dir",
+          "type": "string"
+        },
+        {
+          "name": "lang",
+          "type": "string"
+        },
+        {
+          "name": "did-ssr",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "WaSlider",
+      "file": "src/webawesome/react/slider",
+      "import_path": "",
+      "props": [
+        {
+          "name": "label",
+          "type": "string"
+        },
+        {
+          "name": "hint",
+          "type": "string"
+        },
+        {
+          "name": "name",
+          "type": "string"
+        },
+        {
+          "name": "min-value",
+          "type": "number"
+        },
+        {
+          "name": "max-value",
+          "type": "number"
+        },
+        {
+          "name": "value",
+          "type": "number"
+        },
+        {
+          "name": "range",
+          "type": "boolean"
+        },
+        {
+          "name": "disabled",
+          "type": "boolean"
+        },
+        {
+          "name": "readonly",
+          "type": "boolean"
+        },
+        {
+          "name": "orientation",
+          "type": "enum",
+          "values": [
+            "horizontal",
+            "vertical"
+          ]
+        },
+        {
+          "name": "size",
+          "type": "enum",
+          "values": [
+            "xs",
+            "s",
+            "m",
+            "l",
+            "xl",
+            "small",
+            "medium",
+            "large"
+          ]
+        },
+        {
+          "name": "indicator-offset",
+          "type": "number"
+        },
+        {
+          "name": "min",
+          "type": "number"
+        },
+        {
+          "name": "max",
+          "type": "number"
+        },
+        {
+          "name": "step",
+          "type": "number"
+        },
+        {
+          "name": "autofocus",
+          "type": "boolean"
+        },
+        {
+          "name": "tooltip-distance",
+          "type": "number"
+        },
+        {
+          "name": "tooltip-placement",
+          "type": "enum",
+          "values": [
+            "top",
+            "right",
+            "bottom",
+            "left"
+          ]
+        },
+        {
+          "name": "with-markers",
+          "type": "boolean"
+        },
+        {
+          "name": "with-tooltip",
+          "type": "boolean"
+        },
+        {
+          "name": "with-label",
+          "type": "boolean"
+        },
+        {
+          "name": "with-hint",
+          "type": "boolean"
+        },
+        {
+          "name": "custom-error",
+          "type": "string"
+        },
+        {
+          "name": "dir",
+          "type": "string"
+        },
+        {
+          "name": "lang",
+          "type": "string"
+        },
+        {
+          "name": "did-ssr",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "WaSpinner",
+      "file": "src/webawesome/react/spinner",
+      "import_path": "",
+      "props": [
+        {
+          "name": "dir",
+          "type": "string"
+        },
+        {
+          "name": "lang",
+          "type": "string"
+        },
+        {
+          "name": "did-ssr",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "WaSplitPanel",
+      "file": "src/webawesome/react/split-panel",
+      "import_path": "",
+      "props": [
+        {
+          "name": "position",
+          "type": "number"
+        },
+        {
+          "name": "position-in-pixels",
+          "type": "number"
+        },
+        {
+          "name": "orientation",
+          "type": "enum",
+          "values": [
+            "horizontal",
+            "vertical"
+          ]
+        },
+        {
+          "name": "disabled",
+          "type": "boolean"
+        },
+        {
+          "name": "primary",
+          "type": "string"
+        },
+        {
+          "name": "snap",
+          "type": "string"
+        },
+        {
+          "name": "snap-threshold",
+          "type": "number"
+        },
+        {
+          "name": "dir",
+          "type": "string"
+        },
+        {
+          "name": "lang",
+          "type": "string"
+        },
+        {
+          "name": "did-ssr",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "WaSwitch",
+      "file": "src/webawesome/react/switch",
+      "import_path": "",
+      "props": [
+        {
+          "name": "name",
+          "type": "string"
+        },
+        {
+          "name": "value",
+          "type": "string"
+        },
+        {
+          "name": "size",
+          "type": "enum",
+          "values": [
+            "xs",
+            "s",
+            "m",
+            "l",
+            "xl",
+            "small",
+            "medium",
+            "large"
+          ]
+        },
+        {
+          "name": "disabled",
+          "type": "boolean"
+        },
+        {
+          "name": "checked",
+          "type": "boolean"
+        },
+        {
+          "name": "required",
+          "type": "boolean"
+        },
+        {
+          "name": "hint",
+          "type": "string"
+        },
+        {
+          "name": "with-hint",
+          "type": "boolean"
+        },
+        {
+          "name": "custom-error",
+          "type": "string"
+        },
+        {
+          "name": "dir",
+          "type": "string"
+        },
+        {
+          "name": "lang",
+          "type": "string"
+        },
+        {
+          "name": "did-ssr",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "WaTab",
+      "file": "src/webawesome/react/tab",
+      "import_path": "",
+      "props": [
+        {
+          "name": "panel",
+          "type": "string"
+        },
+        {
+          "name": "disabled",
+          "type": "boolean"
+        },
+        {
+          "name": "role",
+          "type": "string"
+        },
+        {
+          "name": "dir",
+          "type": "string"
+        },
+        {
+          "name": "lang",
+          "type": "string"
+        },
+        {
+          "name": "did-ssr",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "WaTabGroup",
+      "file": "src/webawesome/react/tab-group",
+      "import_path": "",
+      "props": [
+        {
+          "name": "active",
+          "type": "string"
+        },
+        {
+          "name": "placement",
+          "type": "enum",
+          "values": [
+            "top",
+            "bottom",
+            "start",
+            "end"
+          ]
+        },
+        {
+          "name": "activation",
+          "type": "enum",
+          "values": [
+            "auto",
+            "manual"
+          ]
+        },
+        {
+          "name": "without-scroll-controls",
+          "type": "boolean"
+        },
+        {
+          "name": "dir",
+          "type": "string"
+        },
+        {
+          "name": "lang",
+          "type": "string"
+        },
+        {
+          "name": "did-ssr",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "WaTabPanel",
+      "file": "src/webawesome/react/tab-panel",
+      "import_path": "",
+      "props": [
+        {
+          "name": "name",
+          "type": "string"
+        },
+        {
+          "name": "active",
+          "type": "boolean"
+        },
+        {
+          "name": "role",
+          "type": "string"
+        },
+        {
+          "name": "dir",
+          "type": "string"
+        },
+        {
+          "name": "lang",
+          "type": "string"
+        },
+        {
+          "name": "did-ssr",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "WaTag",
+      "file": "src/webawesome/react/tag",
+      "import_path": "",
+      "props": [
+        {
+          "name": "variant",
+          "type": "enum",
+          "values": [
+            "brand",
+            "neutral",
+            "success",
+            "warning",
+            "danger"
+          ]
+        },
+        {
+          "name": "appearance",
+          "type": "enum",
+          "values": [
+            "accent",
+            "filled",
+            "outlined",
+            "filled-outlined"
+          ]
+        },
+        {
+          "name": "size",
+          "type": "enum",
+          "values": [
+            "xs",
+            "s",
+            "m",
+            "l",
+            "xl",
+            "small",
+            "medium",
+            "large"
+          ]
+        },
+        {
+          "name": "pill",
+          "type": "boolean"
+        },
+        {
+          "name": "with-remove",
+          "type": "boolean"
+        },
+        {
+          "name": "dir",
+          "type": "string"
+        },
+        {
+          "name": "lang",
+          "type": "string"
+        },
+        {
+          "name": "did-ssr",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "WaTextarea",
+      "file": "src/webawesome/react/textarea",
+      "import_path": "",
+      "props": [
+        {
+          "name": "name",
+          "type": "string"
+        },
+        {
+          "name": "value",
+          "type": "string"
+        },
+        {
+          "name": "size",
+          "type": "enum",
+          "values": [
+            "xs",
+            "s",
+            "m",
+            "l",
+            "xl",
+            "small",
+            "medium",
+            "large"
+          ]
+        },
+        {
+          "name": "appearance",
+          "type": "enum",
+          "values": [
+            "filled",
+            "outlined",
+            "filled-outlined"
+          ]
+        },
+        {
+          "name": "label",
+          "type": "string"
+        },
+        {
+          "name": "hint",
+          "type": "string"
+        },
+        {
+          "name": "placeholder",
+          "type": "string"
+        },
+        {
+          "name": "rows",
+          "type": "number"
+        },
+        {
+          "name": "resize",
+          "type": "enum",
+          "values": [
+            "none",
+            "vertical",
+            "horizontal",
+            "both",
+            "auto"
+          ]
+        },
+        {
+          "name": "disabled",
+          "type": "boolean"
+        },
+        {
+          "name": "readonly",
+          "type": "boolean"
+        },
+        {
+          "name": "required",
+          "type": "boolean"
+        },
+        {
+          "name": "minlength",
+          "type": "number"
+        },
+        {
+          "name": "maxlength",
+          "type": "number"
+        },
+        {
+          "name": "autocapitalize",
+          "type": "enum",
+          "values": [
+            "off",
+            "none",
+            "on",
+            "sentences",
+            "words",
+            "characters"
+          ]
+        },
+        {
+          "name": "autocorrect",
+          "type": "boolean"
+        },
+        {
+          "name": "autocomplete",
+          "type": "string"
+        },
+        {
+          "name": "autofocus",
+          "type": "boolean"
+        },
+        {
+          "name": "enterkeyhint",
+          "type": "enum",
+          "values": [
+            "enter",
+            "done",
+            "go",
+            "next",
+            "previous",
+            "search",
+            "send"
+          ]
+        },
+        {
+          "name": "spellcheck",
+          "type": "boolean"
+        },
+        {
+          "name": "inputmode",
+          "type": "enum",
+          "values": [
+            "none",
+            "text",
+            "decimal",
+            "numeric",
+            "tel",
+            "search",
+            "email",
+            "url"
+          ]
+        },
+        {
+          "name": "with-label",
+          "type": "boolean"
+        },
+        {
+          "name": "with-hint",
+          "type": "boolean"
+        },
+        {
+          "name": "with-count",
+          "type": "boolean"
+        },
+        {
+          "name": "custom-error",
+          "type": "string"
+        },
+        {
+          "name": "dir",
+          "type": "string"
+        },
+        {
+          "name": "lang",
+          "type": "string"
+        },
+        {
+          "name": "did-ssr",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "WaTimeInput",
+      "file": "src/webawesome/react/time-input",
+      "import_path": "",
+      "props": [
+        {
+          "name": "name",
+          "type": "string"
+        },
+        {
+          "name": "value",
+          "type": "string"
+        },
+        {
+          "name": "disabled",
+          "type": "boolean"
+        },
+        {
+          "name": "required",
+          "type": "boolean"
+        },
+        {
+          "name": "readonly",
+          "type": "boolean"
+        },
+        {
+          "name": "size",
+          "type": "string"
+        },
+        {
+          "name": "appearance",
+          "type": "enum",
+          "values": [
+            "filled",
+            "outlined",
+            "filled-outlined"
+          ]
+        },
+        {
+          "name": "pill",
+          "type": "boolean"
+        },
+        {
+          "name": "label",
+          "type": "string"
+        },
+        {
+          "name": "hint",
+          "type": "string"
+        },
+        {
+          "name": "autocomplete",
+          "type": "string"
+        },
+        {
+          "name": "with-clear",
+          "type": "boolean"
+        },
+        {
+          "name": "with-now",
+          "type": "boolean"
+        },
+        {
+          "name": "with-label",
+          "type": "boolean"
+        },
+        {
+          "name": "with-hint",
+          "type": "boolean"
+        },
+        {
+          "name": "min",
+          "type": "string"
+        },
+        {
+          "name": "max",
+          "type": "string"
+        },
+        {
+          "name": "step",
+          "type": "any"
+        },
+        {
+          "name": "hour-format",
+          "type": "string"
+        },
+        {
+          "name": "open",
+          "type": "boolean"
+        },
+        {
+          "name": "placement",
+          "type": "string"
+        },
+        {
+          "name": "distance",
+          "type": "number"
+        },
+        {
+          "name": "custom-error",
+          "type": "string"
+        },
+        {
+          "name": "dir",
+          "type": "string"
+        },
+        {
+          "name": "lang",
+          "type": "string"
+        },
+        {
+          "name": "did-ssr",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "WaToast",
+      "file": "src/webawesome/react/toast",
+      "import_path": "",
+      "props": [
+        {
+          "name": "placement",
+          "type": "string"
+        },
+        {
+          "name": "dir",
+          "type": "string"
+        },
+        {
+          "name": "lang",
+          "type": "string"
+        },
+        {
+          "name": "did-ssr",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "WaToastItem",
+      "file": "src/webawesome/react/toast-item",
+      "import_path": "",
+      "props": [
+        {
+          "name": "variant",
+          "type": "enum",
+          "values": [
+            "brand",
+            "success",
+            "warning",
+            "danger",
+            "neutral"
+          ]
+        },
+        {
+          "name": "size",
+          "type": "enum",
+          "values": [
+            "xs",
+            "s",
+            "m",
+            "l",
+            "xl",
+            "small",
+            "medium",
+            "large"
+          ]
+        },
+        {
+          "name": "duration",
+          "type": "number"
+        },
+        {
+          "name": "with-icon",
+          "type": "boolean"
+        },
+        {
+          "name": "dir",
+          "type": "string"
+        },
+        {
+          "name": "lang",
+          "type": "string"
+        },
+        {
+          "name": "did-ssr",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "WaTooltip",
+      "file": "src/webawesome/react/tooltip",
+      "import_path": "",
+      "props": [
+        {
+          "name": "placement",
+          "type": "string"
+        },
+        {
+          "name": "disabled",
+          "type": "boolean"
+        },
+        {
+          "name": "distance",
+          "type": "number"
+        },
+        {
+          "name": "open",
+          "type": "boolean"
+        },
+        {
+          "name": "skidding",
+          "type": "number"
+        },
+        {
+          "name": "show-delay",
+          "type": "number"
+        },
+        {
+          "name": "hide-delay",
+          "type": "number"
+        },
+        {
+          "name": "trigger",
+          "type": "string"
+        },
+        {
+          "name": "without-arrow",
+          "type": "boolean"
+        },
+        {
+          "name": "for",
+          "type": "string"
+        },
+        {
+          "name": "dir",
+          "type": "string"
+        },
+        {
+          "name": "lang",
+          "type": "string"
+        },
+        {
+          "name": "did-ssr",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "WaTree",
+      "file": "src/webawesome/react/tree",
+      "import_path": "",
+      "props": [
+        {
+          "name": "selection",
+          "type": "enum",
+          "values": [
+            "single",
+            "multiple",
+            "leaf",
+            "leaf-multiple"
+          ]
+        },
+        {
+          "name": "tabindex",
+          "type": "number"
+        },
+        {
+          "name": "role",
+          "type": "string"
+        },
+        {
+          "name": "dir",
+          "type": "string"
+        },
+        {
+          "name": "lang",
+          "type": "string"
+        },
+        {
+          "name": "did-ssr",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "WaTreeItem",
+      "file": "src/webawesome/react/tree-item",
+      "import_path": "",
+      "props": [
+        {
+          "name": "expanded",
+          "type": "boolean"
+        },
+        {
+          "name": "selected",
+          "type": "boolean"
+        },
+        {
+          "name": "disabled",
+          "type": "boolean"
+        },
+        {
+          "name": "lazy",
+          "type": "boolean"
+        },
+        {
+          "name": "tabindex",
+          "type": "number"
+        },
+        {
+          "name": "role",
+          "type": "string"
+        },
+        {
+          "name": "dir",
+          "type": "string"
+        },
+        {
+          "name": "lang",
+          "type": "string"
+        },
+        {
+          "name": "did-ssr",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "WaZoomableFrame",
+      "file": "src/webawesome/react/zoomable-frame",
+      "import_path": "",
+      "props": [
+        {
+          "name": "src",
+          "type": "string"
+        },
+        {
+          "name": "srcdoc",
+          "type": "string"
+        },
+        {
+          "name": "allowfullscreen",
+          "type": "boolean"
+        },
+        {
+          "name": "loading",
+          "type": "enum",
+          "values": [
+            "eager",
+            "lazy"
+          ]
+        },
+        {
+          "name": "referrerpolicy",
+          "type": "string"
+        },
+        {
+          "name": "sandbox",
+          "type": "string"
+        },
+        {
+          "name": "zoom",
+          "type": "number"
+        },
+        {
+          "name": "zoom-levels",
+          "type": "string"
+        },
+        {
+          "name": "without-controls",
+          "type": "boolean"
+        },
+        {
+          "name": "without-interaction",
+          "type": "boolean"
+        },
+        {
+          "name": "with-theme-sync",
+          "type": "boolean"
+        },
+        {
+          "name": "dir",
+          "type": "string"
+        },
+        {
+          "name": "lang",
+          "type": "string"
+        },
+        {
+          "name": "did-ssr",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "SiteFooter",
+      "file": "src/webawesome/patterns/site-footer",
+      "import_path": "",
+      "props": [
+        {
+          "name": "madeBy",
+          "type": "string",
+          "default": "Made by MikeDemo"
+        },
+        {
+          "name": "licensesHref",
+          "type": "string",
+          "default": "/licenses"
+        },
+        {
+          "name": "socialLinks",
+          "type": "any"
+        },
+        {
+          "name": "year",
+          "type": "number"
+        },
+        {
+          "name": "className",
+          "type": "string",
+          "default": "wa-site-footer-meta"
+        },
+        {
+          "name": "slot",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "LicensesPage",
+      "file": "src/webawesome/patterns/licenses",
+      "import_path": "",
+      "props": [
+        {
+          "name": "heading",
+          "type": "string",
+          "default": "Open source \u0026 credits"
+        },
+        {
+          "name": "lede",
+          "type": "string",
+          "default": "This app is built on open source software and freely licensed artwork. Everything it depends on is credited below."
+        },
+        {
+          "name": "backHref",
+          "type": "string",
+          "default": "/"
+        },
+        {
+          "name": "backLabel",
+          "type": "string",
+          "default": "Back home"
+        },
+        {
+          "name": "groups",
+          "type": "any"
+        },
+        {
+          "name": "className",
+          "type": "string",
+          "default": "wa-licenses-list"
+        }
+      ]
+    },
+    {
+      "name": "HCaptcha",
+      "file": "src/webawesome/patterns/hcaptcha",
+      "import_path": "",
+      "props": [
+        {
+          "name": "siteKey",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "size",
+          "type": "enum",
+          "values": [
+            "normal",
+            "compact",
+            "invisible"
+          ],
+          "default": "normal"
+        },
+        {
+          "name": "theme",
+          "type": "enum",
+          "values": [
+            "light",
+            "dark",
+            "auto"
+          ],
+          "default": "auto"
+        },
+        {
+          "name": "hl",
+          "type": "string"
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "default": "h-captcha-response"
+        },
+        {
+          "name": "onVerify",
+          "type": "function"
+        },
+        {
+          "name": "onExpire",
+          "type": "function"
+        },
+        {
+          "name": "onError",
+          "type": "function"
+        },
+        {
+          "name": "onChallengeOpen",
+          "type": "function"
+        },
+        {
+          "name": "onChallengeClose",
+          "type": "function"
+        },
+        {
+          "name": "className",
+          "type": "string",
+          "default": "wa-hcaptcha-widget"
+        },
+        {
+          "name": "id",
+          "type": "string"
+        }
+      ],
+      "usage": "Bot protection for sign-up, login, password reset, and public contact forms. Renders hCaptcha's widget themed to the design system and writes the token into a hidden field so a plain form submit carries it; verify that token server-side before trusting the submission.",
+      "examples": [
+        {
+          "label": "Contact form with a visible challenge",
+          "code": "\u003cform method=\"post\" action=\"/api/public/contact\"\u003e\n  \u003cwa-input name=\"email\" label=\"Email\" type=\"email\" required\u003e\u003c/wa-input\u003e\n  \u003cHCaptcha siteKey={import.meta.env.VITE_HCAPTCHA_SITE_KEY} /\u003e\n  \u003cwa-button type=\"submit\" variant=\"brand\"\u003eSend\u003c/wa-button\u003e\n\u003c/form\u003e"
+        },
+        {
+          "label": "Invisible challenge run from your own button",
+          "code": "const captcha = useRef\u003cHCaptchaHandle\u003e(null);\n\n\u003cHCaptcha ref={captcha} size=\"invisible\" siteKey={siteKey} onVerify={(token) =\u003e submit(token)} /\u003e\n\u003cwa-button variant=\"brand\" onClick={() =\u003e captcha.current?.execute()}\u003eCreate account\u003c/wa-button\u003e"
+        }
+      ],
+      "antipatterns": [
+        "Trusting the token client-side, or gating a submit purely on onVerify without a server check.",
+        "Putting the hCaptcha secret key in client code or in the siteKey prop.",
+        "Adding hCaptcha's api.js with a \u003cscript\u003e tag or hand-rolling the widget instead of using this component.",
+        "Using size=\"invisible\" without calling execute() — no challenge ever runs."
+      ]
+    },
+    {
+      "name": "ThemeEditor",
+      "file": "src/webawesome/theme-editor/theme-editor",
+      "import_path": "",
+      "props": [
+        {
+          "name": "onSave",
+          "type": "function"
+        },
+        {
+          "name": "className",
+          "type": "string",
+          "default": "wa-stack wa-gap-2xs"
+        },
+        {
+          "name": "onController",
+          "type": "function"
+        }
+      ],
+      "usage": "Drop in a panel that retunes the system's semantic colors, font stacks, type scale, spacing/density, corner radius, and shadow strength live. Overrides are applied as --wa-* custom properties on \u003chtml\u003e and remembered in localStorage; serializeThemeCss() turns them into the CSS that belongs in src/webawesome/brand.css.",
+      "examples": [
+        {
+          "label": "Copy-only editor",
+          "code": "\u003cThemeEditor /\u003e"
+        },
+        {
+          "label": "Save into the brand file",
+          "code": "import { ThemeEditor } from \"@/webawesome/theme-editor\";\nimport { saveThemeDefaults } from \"@/webawesome/theme-editor.functions\";\n\n\u003cThemeEditor onSave={async (css) =\u003e { await saveThemeDefaults({ data: { css } }); }} /\u003e"
+        },
+        {
+          "label": "Read overrides elsewhere",
+          "code": "const { overrides, patch } = useThemeOverrides();\npatch({ colors: { brand: \"#7a2ff2\" } });"
+        }
+      ],
+      "antipatterns": [
+        "Shipping theme changes only in localStorage — save them into brand.css so they reach every consumer.",
+        "Writing brand token overrides by hand in another stylesheet instead of brand.css.",
+        "Exposing the editor on a public production page: it is an authoring tool, and saving is refused outside development."
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "file": "src/assets/logos/brand-mark.png",
+      "kind": "logo",
+      "format": "png"
+    }
+  ]
+}

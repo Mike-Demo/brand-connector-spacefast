@@ -1,0 +1,65 @@
+/*
+ * Theme editor layout. Every value is a --wa-* token so the editor is
+ * retinted by the very overrides it produces.
+ */
+
+.wa-theme-editor__groups {
+  --min-column-size: 18rem;
+}
+
+.wa-theme-editor__group {
+  padding: var(--wa-space-m);
+  border: var(--wa-border-width-s) var(--wa-border-style) var(--wa-color-surface-border);
+  border-radius: var(--wa-border-radius-l);
+  background-color: var(--wa-color-surface-raised);
+}
+
+.wa-theme-editor__group-title {
+  margin: 0;
+  font-size: var(--wa-font-size-m);
+  font-weight: var(--wa-font-weight-semibold);
+}
+
+.wa-theme-editor__label {
+  font-size: var(--wa-font-size-s);
+  font-weight: var(--wa-font-weight-semibold);
+  text-transform: capitalize;
+}
+
+.wa-theme-editor__hint {
+  margin: 0;
+  color: var(--wa-color-text-quiet);
+  font-size: var(--wa-font-size-xs);
+  line-height: var(--wa-line-height-normal);
+}
+
+.wa-theme-editor__value {
+  color: var(--wa-color-text-quiet);
+  font-family: var(--wa-font-family-code);
+  font-size: var(--wa-font-size-xs);
+}
+
+.wa-theme-editor__swatch {
+  inline-size: var(--wa-form-control-toggle-size);
+  block-size: var(--wa-form-control-toggle-size);
+  border: var(--wa-border-width-s) var(--wa-border-style) var(--wa-color-surface-border);
+  border-radius: var(--wa-border-radius-m);
+}
+
+.wa-theme-editor__code summary {
+  color: var(--wa-color-text-quiet);
+  font-size: var(--wa-font-size-s);
+  cursor: pointer;
+}
+
+.wa-theme-editor__code pre {
+  overflow-x: auto;
+  margin-block: var(--wa-space-xs) 0;
+  padding: var(--wa-space-m);
+  border-radius: var(--wa-border-radius-m);
+  background-color: var(--wa-color-surface-lowered);
+  color: var(--wa-color-text-normal);
+  font-family: var(--wa-font-family-code);
+  font-size: var(--wa-font-size-xs);
+  line-height: var(--wa-line-height-normal);
+}
