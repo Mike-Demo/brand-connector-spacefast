@@ -1,6 +1,6 @@
-# Brand Connector Pro (Magic Manta) — SpaceFast preview
+# Brand Connector Pro (Magic Manta)
 
-Brand Connector Pro at https://brand-connector-preview.view.fast/ finds and verifies a company's social media profiles from its website URL. This is a migration preview of https://magicmanta.com; the lookup engine is ported from the Lovable/Cloudflare build and served as SpaceFast functions.
+Brand Connector Pro at https://magicmanta.com finds and verifies a company's social media profiles from its website URL. This deployment serves a prerendered static frontend with the lookup engine as SpaceFast functions.
 
 ## How it works
 - Enter a brand's domain on the homepage to retrieve associated social handles across X, Instagram, LinkedIn, Threads, TikTok, YouTube, and more.
@@ -19,8 +19,8 @@ Brand Connector Pro at https://brand-connector-preview.view.fast/ finds and veri
 - /licenses — open source credits and digital carbon disclosure
 - /offline — offline fallback
 
-## Machine API (this preview only)
-The production build exposes the lookup UI only; this preview additionally exposes the lookup engine as plain HTTP endpoints (no auth):
+## Machine API
+The lookup engine is exposed as plain HTTP endpoints (no auth) on this deployment:
 
 - POST /api/lookup — JSON body: {"url": "example.com"} (a domain or full URL). Returns a BrandLookupResult: brandName, platforms[] (each with platformId, status, and entries[] carrying handle, url, rating, and evidence strings), notFound[] platform names, and blocked:true when the target site refuses automated access. Rate limit: 20 requests/minute per caller.
 - POST /api/search — JSON body: {"query": "brand name"}. Returns an array of SearchHit objects (title, url, snippet). Rate limit: 60 requests/minute per caller. Best-effort DuckDuckGo HTML fallback; may return [] when the search provider blocks automated requests.
@@ -29,7 +29,7 @@ Both endpoints validate input strictly, refuse private/internal/loopback targets
 
 ## Machine-readable
 - /llms.txt — this file
-- /.well-known/agent.json — agent card (documents the preview API above)
+- /.well-known/agent.json — agent card (documents the API above)
 - /carbon.txt — digital carbon disclosure (carbon.txt v0.5)
 - /sitemap.xml and /robots.txt
 
